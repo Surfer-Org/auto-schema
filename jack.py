@@ -2,7 +2,6 @@ import os
 import json
 import pandas as pd
 import numpy as np
-from ydata_profiling import ProfileReport
 from json import JSONEncoder
 
 class CustomJSONEncoder(JSONEncoder):
@@ -19,7 +18,6 @@ class CustomJSONEncoder(JSONEncoder):
 def analyze_csv(file_path):
     try:
         df = pd.read_csv(file_path)
-        profile = ProfileReport(df, minimal=True, title="Data Type Analysis")
         
         columns_info = {}
         for column in df.columns:
@@ -68,11 +66,10 @@ def document_structure(root_dir):
     return process_directory(root_dir)
 
 def main():
-    root_dir = '/Users/jackblair/Jack Blair/Straight Outta Harbour/Repos/ConversionScript/linkedInData/LinkedIn Data Export Aug 14 2024'
+    root_dir = r"C:\Users\sahil\Downloads\Complete_LinkedInDataExport_10-22-2024"
     structure = document_structure(root_dir)
-
-    with open('output_structure.json', 'w') as f:
-        json.dump(structure, f, indent=4, cls=CustomJSONEncoder)
+    with open('output_structure.json', 'w', encoding='utf-8') as json_file:
+        json.dump(structure, json_file, indent=4)
 
 if __name__ == "__main__":
     main()

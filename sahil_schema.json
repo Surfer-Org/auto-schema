@@ -1,0 +1,1175 @@
+{
+    "Profile Summary.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "Profile Summary": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Organizations.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Boy Scouts of America - Troop 160"
+                ]
+            },
+            "Description": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Position": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Started On": {
+                "data_type": "string",
+                "example_values": [
+                    "Feb 2015"
+                ]
+            },
+            "Finished On": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Member_Follows.csv": {
+        "type": "csv",
+        "total_rows": 17,
+        "columns": {
+            "Date": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-08-27 05:21:57",
+                    "2024-07-26 20:08:02",
+                    "2024-03-14 02:16:27"
+                ]
+            },
+            "Status": {
+                "data_type": "string",
+                "example_values": [
+                    "Active",
+                    "Active",
+                    "Active"
+                ]
+            },
+            "FullName": {
+                "data_type": "string",
+                "example_values": [
+                    "Simon Willison",
+                    "Tyler J. Leinenbach",
+                    "Silvana Liscano"
+                ]
+            }
+        }
+    },
+    "Registration.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "Registered At": {
+                "data_type": "string",
+                "example_values": [
+                    "8/26/22, 3:40 PM"
+                ]
+            },
+            "Registration Ip": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Subscription Types": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Connections.csv": {
+        "type": "csv",
+        "total_rows": 1445,
+        "columns": {
+            "Notes:": {
+                "data_type": "string",
+                "example_values": [
+                    "When exporting your connection data, you may notice that some of the email addresses are missing. You will only see email addresses for connections who have allowed their connections to see or download their email address using this setting https://www.linkedin.com/psettings/privacy/email. You can learn more here https://www.linkedin.com/help/linkedin/answer/261",
+                    "First Name",
+                    "Ritwik"
+                ]
+            }
+        }
+    },
+    "Email Addresses.csv": {
+        "type": "csv",
+        "total_rows": 2,
+        "columns": {
+            "Email Address": {
+                "data_type": "string",
+                "example_values": [
+                    "slalani304@gmail.com",
+                    "lihas1002@gmail.com"
+                ]
+            },
+            "Confirmed": {
+                "data_type": "string",
+                "example_values": [
+                    "Yes",
+                    "Yes"
+                ]
+            },
+            "Primary": {
+                "data_type": "string",
+                "example_values": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            "Updated On": {
+                "data_type": "string",
+                "example_values": [
+                    "8/26/22, 3:40 PM",
+                    "8/26/22, 3:45 PM"
+                ]
+            }
+        }
+    },
+    "Comments.csv": {
+        "type": "csv",
+        "total_rows": 9,
+        "columns": {
+            "Date": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-10-15 23:55:24",
+                    "2024-10-15 20:52:28",
+                    "2024-09-14 21:47:05"
+                ]
+            },
+            "Link": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7247843682156986368",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7247843682156986368",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7059520710402031616"
+                ]
+            },
+            "Message": {
+                "data_type": "string",
+                "example_values": [
+                    "really real",
+                    "congratulations, please remember me when you are famous mr. momin \ud83d\udc4d",
+                    "Hey, super cool library! Trying to use it in an Electron JS application, but I'm getting an error that IndexedDB is not defined. Would love to talk more!"
+                ]
+            }
+        }
+    },
+    "Logins.csv": {
+        "type": "csv",
+        "total_rows": 83,
+        "columns": {
+            "Login Date": {
+                "data_type": "string",
+                "example_values": [
+                    "Mon Dec 19 17:40:52 UTC 2022",
+                    "Mon May 22 17:55:25 UTC 2023",
+                    "Fri May 26 17:46:48 UTC 2023"
+                ]
+            },
+            "IP Address": {
+                "data_type": "string",
+                "example_values": [
+                    "74.96.20.136",
+                    "198.24.31.108",
+                    "198.24.31.108"
+                ]
+            },
+            "User Agent": {
+                "data_type": "string",
+                "example_values": [
+                    "Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 Safari/604.1",
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+                ]
+            },
+            "Login Type": {
+                "data_type": "string",
+                "example_values": [
+                    "Login",
+                    "Login",
+                    "Login"
+                ]
+            }
+        }
+    },
+    "messages.csv": {
+        "type": "csv",
+        "total_rows": 310,
+        "columns": {
+            "CONVERSATION ID": {
+                "data_type": "string",
+                "example_values": [
+                    "2-YzRiMTNiODktMTc0MS00ZWJlLTg3ZjAtMTgyYmIyMzQ0MDU3XzAxMg==",
+                    "2-YzRiMTNiODktMTc0MS00ZWJlLTg3ZjAtMTgyYmIyMzQ0MDU3XzAxMg==",
+                    "2-YzRiMTNiODktMTc0MS00ZWJlLTg3ZjAtMTgyYmIyMzQ0MDU3XzAxMg=="
+                ]
+            },
+            "CONVERSATION TITLE": {
+                "data_type": "string",
+                "example_values": [
+                    "Sponsored Conversation",
+                    "Sponsored Conversation",
+                    "Sponsored Conversation"
+                ]
+            },
+            "FROM": {
+                "data_type": "string",
+                "example_values": [
+                    "Alex Morales",
+                    "Alex Morales",
+                    "Alex Morales"
+                ]
+            },
+            "SENDER PROFILE URL": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/in/moralestapia",
+                    "https://www.linkedin.com/in/moralestapia",
+                    "https://www.linkedin.com/in/moralestapia"
+                ]
+            },
+            "TO": {
+                "data_type": "string",
+                "example_values": [
+                    "Sahil Lalani",
+                    "Sahil Lalani",
+                    "Sahil Lalani"
+                ]
+            },
+            "RECIPIENT PROFILE URLS": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/in/sahillalani",
+                    "https://www.linkedin.com/in/sahillalani",
+                    "https://www.linkedin.com/in/sahillalani"
+                ]
+            },
+            "DATE": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-10-20 17:30:35 UTC",
+                    "2024-10-20 05:46:20 UTC",
+                    "2024-10-20 05:46:06 UTC"
+                ]
+            },
+            "SUBJECT": {
+                "data_type": "string",
+                "example_values": [
+                    "Play LinkedIn games for students, score free Premium",
+                    "You\u2019re part of an exclusive group of new experts",
+                    "College Application Consulting"
+                ]
+            },
+            "CONTENT": {
+                "data_type": "string",
+                "example_values": [
+                    "Back from church! Free for the next 4 hours\u00a0\ud83d\ude03.  (If I don't reply here feel free to msg. me at 647 857 4814)",
+                    "I'll write you during the day and let's see if we coincide.",
+                    "Today (Sunday) I'm free most of the day, except for an hour where I go to church and another one later where I go to French lessons."
+                ]
+            },
+            "FOLDER": {
+                "data_type": "string",
+                "example_values": [
+                    "INBOX",
+                    "INBOX",
+                    "INBOX"
+                ]
+            },
+            "IS MESSAGE DRAFT": {
+                "data_type": "string",
+                "example_values": [
+                    "No",
+                    "No",
+                    "No"
+                ]
+            }
+        }
+    },
+    "Skills.csv": {
+        "type": "csv",
+        "total_rows": 5,
+        "columns": {
+            "Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Full-Stack Development",
+                    "Firebase",
+                    "ChatGPT"
+                ]
+            }
+        }
+    },
+    "Shares.csv": {
+        "type": "csv",
+        "total_rows": 3,
+        "columns": {
+            "Date": {
+                "data_type": "string",
+                "example_values": [
+                    "2023-07-06 16:47:57",
+                    "2023-06-21 15:19:18",
+                    "2023-06-05 20:45:51"
+                ]
+            },
+            "ShareLink": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7082762107460431872",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7077303978887143424",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7071587953189253120"
+                ]
+            },
+            "ShareCommentary": {
+                "data_type": null,
+                "example_values": []
+            },
+            "SharedUrl": {
+                "data_type": null,
+                "example_values": []
+            },
+            "MediaUrl": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Visibility": {
+                "data_type": "string",
+                "example_values": [
+                    "MEMBER_NETWORK",
+                    "MEMBER_NETWORK",
+                    "MEMBER_NETWORK"
+                ]
+            }
+        }
+    },
+    "Reactions.csv": {
+        "type": "csv",
+        "total_rows": 2,
+        "columns": {
+            "Date": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-06-08 14:33:26",
+                    "2023-08-29 21:23:46"
+                ]
+            },
+            "Type": {
+                "data_type": "string",
+                "example_values": [
+                    "LIKE",
+                    "LIKE"
+                ]
+            },
+            "Link": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7204786097883664384",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7102340926534021120"
+                ]
+            }
+        }
+    },
+    "coach_messages.csv": {
+        "type": "csv",
+        "total_rows": 0,
+        "columns": {
+            "CONVERSATION ID": {
+                "data_type": null,
+                "example_values": []
+            },
+            "CONVERSATION TITLE": {
+                "data_type": null,
+                "example_values": []
+            },
+            "FROM": {
+                "data_type": null,
+                "example_values": []
+            },
+            "SENDER PROFILE URL": {
+                "data_type": null,
+                "example_values": []
+            },
+            "TO": {
+                "data_type": null,
+                "example_values": []
+            },
+            "RECIPIENT PROFILE URLS": {
+                "data_type": null,
+                "example_values": []
+            },
+            "DATE": {
+                "data_type": null,
+                "example_values": []
+            },
+            "SUBJECT": {
+                "data_type": null,
+                "example_values": []
+            },
+            "CONTENT": {
+                "data_type": null,
+                "example_values": []
+            },
+            "FOLDER": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Company Follows.csv": {
+        "type": "csv",
+        "total_rows": 17,
+        "columns": {
+            "Organization": {
+                "data_type": "string",
+                "example_values": [
+                    "Huddle Social",
+                    "Jumpseat",
+                    "Vytal "
+                ]
+            },
+            "Followed On": {
+                "data_type": "string",
+                "example_values": [
+                    "Tue Oct 01 00:24:35 UTC 2024",
+                    "Sun Sep 01 19:38:31 UTC 2024",
+                    "Thu Apr 18 03:11:34 UTC 2024"
+                ]
+            }
+        }
+    },
+    "Invitations.csv": {
+        "type": "csv",
+        "total_rows": 254,
+        "columns": {
+            "From": {
+                "data_type": "string",
+                "example_values": [
+                    "Sahil Lalani",
+                    "Sahil Lalani",
+                    "Sahil Lalani"
+                ]
+            },
+            "To": {
+                "data_type": "string",
+                "example_values": [
+                    "Ritwik Jayaraman",
+                    "Sathvik Redrouthu",
+                    "Alexander Chen"
+                ]
+            },
+            "Sent At": {
+                "data_type": "string",
+                "example_values": [
+                    "10/19/24, 2:33 PM",
+                    "10/15/24, 6:10 AM",
+                    "9/25/24, 7:42 PM"
+                ]
+            },
+            "Message": {
+                "data_type": "string",
+                "example_values": [
+                    "Hi Simon, built a desktop version of Dogsheep: https://github.com/CEREBRUS-MAXIMUS/Surfer-Data. Would love to connect.  - Sahil",
+                    "Hey Zion, saw that you're building Onairos. Building something similar, would love to chat :)",
+                    "thank you for beating pakistan"
+                ]
+            },
+            "Direction": {
+                "data_type": "string",
+                "example_values": [
+                    "OUTGOING",
+                    "OUTGOING",
+                    "OUTGOING"
+                ]
+            },
+            "inviterProfileUrl": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/in/sahillalani",
+                    "https://www.linkedin.com/in/sahillalani",
+                    "https://www.linkedin.com/in/sahillalani"
+                ]
+            },
+            "inviteeProfileUrl": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/in/ritwik-jayaraman",
+                    "https://www.linkedin.com/in/sathvik-redrouthu-28456919b",
+                    "https://www.linkedin.com/in/csalex04"
+                ]
+            }
+        }
+    },
+    "Projects.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "Title": {
+                "data_type": "string",
+                "example_values": [
+                    "CollegeKit"
+                ]
+            },
+            "Description": {
+                "data_type": "string",
+                "example_values": [
+                    "A college admission profile matcher where the user puts in a brief description about themselves and is matched with students that have similar profiles. - has received over 10,000 queries from students all over the world - released to Reddit and gained over 2,000 users in less than 48 hours - made it onto the 2nd page of Streamlit\u2019s trending page for LLM Projects"
+                ]
+            },
+            "Url": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Started On": {
+                "data_type": "string",
+                "example_values": [
+                    "Jun 2023"
+                ]
+            },
+            "Finished On": {
+                "data_type": "string",
+                "example_values": [
+                    "Jul 2023"
+                ]
+            }
+        }
+    },
+    "Learning.csv": {
+        "type": "csv",
+        "total_rows": 3,
+        "columns": {
+            "Content Title": {
+                "data_type": "string",
+                "example_values": [
+                    "Data Resilience with Spring and RabbitMQ Event Streaming",
+                    "Advanced Python: Build Hands-On Projects with Design Patterns",
+                    "Microsoft Power Platform Fundamentals (PL-900) Exam Tips"
+                ]
+            },
+            "Content Description": {
+                "data_type": "string",
+                "example_values": [
+                    "RabbitMQ is a widely deployed messaging solution and Spring is a popular framework for building modern Java applications. In this course, Gregory Green explains how Spring and RabbitMQ can be used to build a resilient data architecture for critical applications. Learn about RabbitMQ features such as quorum queues, streams, and multi-site replication. Gregory also reviews Spring projects like Spring Cloud and AMQP that simplify building production-ready applications. Plus, learn how Kubernetes improves resiliency for Spring applications and RabbitMQ.",
+                    "Looking to get up to speed with design patterns in Python? This course was made for you. Join instructor Jungwoo Ryoo in this hands-on, interactive, skills-first coding course designed uniquely for advanced-level Python developers. Discover strategic Python coding skills to boost your technical know-how, prepare for an interview, or land a new role. This course includes Code Challenges powered by CoderPad: interactive coding exercises with real-time feedback, so you can get hands-on coding practice to advance your coding skills as you go. Along the way, Jungwoo helps you develop your skills as a Python programmer with four specific, design-focused coding challenges to enhance your programming efficiency, consistency, completeness, and correctness by implementing patterns. Practice building complex objects with the Builder pattern, building a wrapper with the Adapter pattern, building a transaction with the Command pattern, and improving security with the intercepting validator.",
+                    "<p>The Power Platform Fundamentals certification is designed to measure general understanding and familiarity of the popular no-code/low-code suite of software tools from Microsoft, which includes Power BI, Power Apps, Power Pages, Power Automate, and Power Virtual Agents. To earn the certification, one must pass the Power Platform Fundamentals (PL-900) exam. In this course, Microsoft Power Platform Advocate April Dunnam provides an overview of this certification, and highlights the six main domains from the exam. To pass the exam, you must be able to demonstrate the business value of Microsoft Power Platform; identify the core components of Power Platform; demonstrate the capabilities of Power BI; describe the capabilities of Power Apps; demonstrate the capabilities of Power Automate; and demonstrate the business value of Power Virtual Agents.</p><p>\nWhether you\u2019re looking for a primer on the exam or need a refresher on the exam topics, this course can help you get started on your path to certification.</p>"
+                ]
+            },
+            "Content Type": {
+                "data_type": "string",
+                "example_values": [
+                    "Course",
+                    "Course",
+                    "Course"
+                ]
+            },
+            "Content Last Watched Date (if viewed)": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-10-18 17:57 UTC",
+                    "2024-10-05 01:29 UTC",
+                    "2024-10-15 20:51 UTC"
+                ]
+            },
+            "Content Completed At (if completed)": {
+                "data_type": "string",
+                "example_values": [
+                    "N/A",
+                    "N/A",
+                    "N/A"
+                ]
+            },
+            "Content Saved": {
+                "data_type": "string",
+                "example_values": [
+                    "false",
+                    "false",
+                    "false"
+                ]
+            },
+            "Notes taken on videos (if taken)": {
+                "data_type": "string",
+                "example_values": [
+                    "N/A",
+                    "N/A",
+                    "N/A"
+                ]
+            },
+            "": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Ad_Targeting.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "Member Age": {
+                "data_type": "string",
+                "example_values": [
+                    "18 to 24"
+                ]
+            },
+            "Buyer Groups": {
+                "data_type": "string",
+                "example_values": [
+                    "Machine Learning Software & Platforms; Data Warehouse Software"
+                ]
+            },
+            "Company Names": {
+                "data_type": "string",
+                "example_values": [
+                    "The Wendy's Company; Scouting America",
+                    "The Wendy's Company; Scouting America",
+                    "The Wendy's Company; Scouting America"
+                ]
+            },
+            "Company Follower of": {
+                "data_type": "string",
+                "example_values": [
+                    "The Wendy's Company; Plexus; Brick Wall Advertising; SparkTank; National Institute for Finance; Soverai; LinkedIn News; Purdue University; Jumpseat; Vytal ; Flux Solutions; The Founders Club; Chantilly High School; Huddle Social; Reach Best; FLOW; Scouting America"
+                ]
+            },
+            "Company Category": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Company Size": {
+                "data_type": "string",
+                "example_values": [
+                    "2-10 employees"
+                ]
+            },
+            "Degrees": {
+                "data_type": "string",
+                "example_values": [
+                    "Bachelor's Degree"
+                ]
+            },
+            "degreeClass": {
+                "data_type": "string",
+                "example_values": [
+                    "200"
+                ]
+            },
+            "Member Schools": {
+                "data_type": "string",
+                "example_values": [
+                    "Chantilly High School; Purdue University"
+                ]
+            },
+            "Company Growth Rate": {
+                "data_type": "string",
+                "example_values": [
+                    "20%+ company growth"
+                ]
+            },
+            "Fields of Study": {
+                "data_type": "string",
+                "example_values": [
+                    "ENGINEERING"
+                ]
+            },
+            "Company Connections": {
+                "data_type": "string",
+                "example_values": [
+                    "CACI International Inc; Amazon Web Services (AWS); Intel Corporation; Purdue University Elmore Family School of Electrical and Computer Engineering; Chess.com; Purdue University College of Engineering; University of Maryland; The D. E. Shaw Group; Capital One; Georgia Institute of Technology; William & Mary; LinkedIn; University of Michigan College of Literature, Science, and the Arts; Caterpillar Inc.; Northrop Grumman; Duke University; UPMC; National Heart, Lung, and Blood Institute; Georgetown University; U.S. Department of State; University of Pittsburgh School of Medicine; Wegmans Food Markets; National Air and Space Museum, Smithsonian Institution; Meta; Freddie Mac; Akron Children's; Purdue University Daniels School of Business; IBM; Harvard University; Morgan Stanley; Google; University of Illinois Urbana-Champaign; Harvard Medical School; George Mason University; Tesla; Giant Food; Virginia Tech; Noblis; The Johns Hopkins University Applied Physics Laboratory; Navy Federal Credit Union; Carahsoft; George Mason University - College of Engineering and Computing; Cvent; Microsoft; Lincoln Electric; Accenture; Deloitte; U.S. Department of Energy (DOE); UVA Health; Yale University; University of Virginia; Dartmouth Hitchcock Medical Center and Clinics; University of Chicago; James Madison University; Boeing; Epic; Visa; 180 Degrees Consulting; University of California, Berkeley; SpaceX; University of Michigan; Leidos; Johns Hopkins Bloomberg School of Public Health; Purdue University; The Johns Hopkins University; MITRE; FTI Consulting; Amazon; Virginia Tech College of Engineering; Marriott International; JPMorganChase; The Johns Hopkins University School of Medicine; National Institute of Standards and Technology (NIST); U.S. Department of Justice; Humana"
+                ]
+            },
+            "Function By Size": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Job Functions": {
+                "data_type": "string",
+                "example_values": [
+                    "Engineering"
+                ]
+            },
+            "Member Gender": {
+                "data_type": "string",
+                "example_values": [
+                    "Male"
+                ]
+            },
+            "Graduation Year": {
+                "data_type": "string",
+                "example_values": [
+                    "2027"
+                ]
+            },
+            "Member Groups": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Company Industries": {
+                "data_type": "string",
+                "example_values": [
+                    "Education; Higher Education"
+                ]
+            },
+            "Member Interests": {
+                "data_type": "string",
+                "example_values": [
+                    "Cloud Computing; Content Marketing; NoSQL Database Software; Mobile Advertising; Online Media; Web Hosting; Javascript; Corporate Finance; Java; Payroll; Market Segmentation; Digital Banking; Marketing Metrics; Open Source Software; Project and Program Management; Advertising Strategies; Health; Legislation; Fitness Technology; Sales and Retail; Market Research; Marketing and Advertising; Web Frameworks; CPUs; Natural Language Processing; Remote Working; Business Administration; IT Infrastructure; Operating Systems; Society and Culture; Cryptocurrency; Swarm Robotics; Computer Languages; Digital Manufacturing; Cybersecurity; C++; Data Management; Data Protection; Salary and Wages; Robotics; Enterprise Software; Content Strategy; Startups; Public Services; Retargeting; Computer Hardware; Computer Graphics; Information Systems; Employee Onboarding; Human-Computer Interaction; Competitive Programming; Marketing Technology; Information Technology; Agile Project Management; Design Software; Technology; Working Environments; Science and Environment; Drones; Software Development Software; Data Science; Integrated Development Environments; Starting a Business; Web Development; Internet Infrastructure; Digital Currency; Human Resources; Venture Capital; Distributed Computing; On Demand Videos and Streaming; Wearable Tech; Business Intelligence; Process Management; Business Technology; Quantum Computing; Computer Networks; Biotechnology; Customer Relationship Management; Biology; Careers and Employment; BYOD; Data Modeling; Virtual Reality; Continuing Professional Development; Computer Programming; Consumer Electronics; Blockchain Technology; Banking; Chatbots; Accounting; People Management; Sales Channels; Artificial Intelligence; Marketing Automation; Python; Arts and Entertainment; Video Games; Employee Benefits; Antivirus and Malware; Mobile Technology; Financial Investing; Databases; Cell Phones; Audio-Visual Production; Business and Management; Customer Experience; Machine Learning; Disruptive Innovation; Big Data; Computer Software; E-Commerce; Entrepreneurship; Data Architecture; Marketing Performance Management; Network Equipment and Virtualization; User Experience; Digital Marketing; Finance and Economy; Financial Technology; International Relations; Data Hosting; Search Engine Optimization; Data Management Software; Nanorobotics; Marketing Research; Politics and Law; Augmented Reality; Engineering; Outsourcing; Deep Learning; Web Design; Electronics; Nanotechnology; Performance-Related Pay; ERP Solutions; Marketing Strategies; Network and Enterprise Security"
+                ]
+            },
+            "Interface Locales": {
+                "data_type": "string",
+                "example_values": [
+                    "English"
+                ]
+            },
+            "interfaceLocale": {
+                "data_type": "string",
+                "example_values": [
+                    "en_US"
+                ]
+            },
+            "Member Traits": {
+                "data_type": "string",
+                "example_values": [
+                    "Windows; Desktop/Laptop Users; 3"
+                ]
+            },
+            "Profile Locations": {
+                "data_type": "string",
+                "example_values": [
+                    "North America; North America; Virginia, United States; Washington DC-Baltimore Area; NAMER; Virginia; United States; United States; Washington D.C. Metro Area; Centreville, VA; Fairfax County, VA"
+                ]
+            },
+            "Company Revenue": {
+                "data_type": "string",
+                "example_values": [
+                    "Under $1M"
+                ]
+            },
+            "Job Seniorities": {
+                "data_type": "string",
+                "example_values": [
+                    "Entry"
+                ]
+            },
+            "Member Skills": {
+                "data_type": "string",
+                "example_values": [
+                    "Competitive Gaming; Data Engineering; Express.js; Product Service; React Native; Firebase; Large Language Models (LLM); Digital Marketing Channels; Marketing Data Analysis; Mobile Product Development; Programming Languages; Showcase Query; Library Science; Declarative Programming; Product Management; JavaScript Frameworks; Query Languages; Artificial Intelligence (AI); Troux; Object-oriented Languages; Speaker Development; Web Application Development; Library Management; Back-End Web Development; Computer Gaming; Mechanical Engineering; Data Profiling; Mean Stack; Google Cloud Platform (GCP); Fire Investigation; ChatGPT; Application Programming Interfaces (API); Programming; Edtech; Angular; Python (Programming Language); Member Relations; Reddit; Structured Programming; Trombone; Computer Engineering; Application Development; Stack; Content Design; Database Queries; Online Support; Leadership Management; Machine Learning; Continuous Integration and Continuous Delivery (CI/CD); Functional Programming; Autodesk EAGLE; Engineering; JavaScript Libraries; Education; Higher Education Teaching; Intrapersonal Skills; Web Development; Data Analytics; Software Development; Chatbots; Fire Management; Academic Research; Chat; Digital Product Development; Mobile Application Development; RDBMS; Data Management; Full-Stack Development; BigTable; Online Gaming; Project Teams; EDA; Gitlab; REST APIs; Data Science; ASQ Member; Computing; Product Development; Online Help; Procedural Programming; Machine Learning Algorithms; Ruby; Query Writing; Library Services; Client Relationship Strengthening; Business Data Management; Pattern Recognition; Object-Oriented Programming (OOP)"
+                ]
+            },
+            "Job Titles": {
+                "data_type": "string",
+                "example_values": [
+                    "Software Engineer; Crew Member; Mechanical Technician; Mechanical Engineering Specialist; Scout; Information Manager; Teacher; Instructor; Mechanical Specialist; Technician; Library Science Specialist; Education Professional; Full Stack Engineer; Software Development Specialist; Member; Librarian",
+                    "Software Engineer; Crew Member; Mechanical Technician; Mechanical Engineering Specialist; Scout; Information Manager; Teacher; Instructor; Mechanical Specialist; Technician; Library Science Specialist; Education Professional; Full Stack Engineer; Software Development Specialist; Member; Librarian",
+                    "Software Engineer; Crew Member; Mechanical Technician; Mechanical Engineering Specialist; Scout; Information Manager; Teacher; Instructor; Mechanical Specialist; Technician; Library Science Specialist; Education Professional; Full Stack Engineer; Software Development Specialist; Member; Librarian"
+                ]
+            },
+            "Years of Experience": {
+                "data_type": "string",
+                "example_values": [
+                    "8 years"
+                ]
+            }
+        }
+    },
+    "Security Challenges.csv": {
+        "type": "csv",
+        "total_rows": 18,
+        "columns": {
+            "Challenge Date": {
+                "data_type": "string",
+                "example_values": [
+                    "Mon May 22 17:55:24 UTC 2023",
+                    "Mon Nov 06 02:23:52 UTC 2023",
+                    "Mon Nov 06 16:53:25 UTC 2023"
+                ]
+            },
+            "IP Address": {
+                "data_type": "string",
+                "example_values": [
+                    "198.24.31.108",
+                    "128.211.251.138",
+                    "128.210.106.68"
+                ]
+            },
+            "User Agent": {
+                "data_type": "string",
+                "example_values": [
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+                    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+                ]
+            },
+            "Country": {
+                "data_type": "string",
+                "example_values": [
+                    "United States",
+                    "United States",
+                    "United States"
+                ]
+            },
+            "Challenge Type": {
+                "data_type": "string",
+                "example_values": [
+                    "CAPTCHA_CHALLENGE",
+                    "REHAB_RESTRICTION_CHALLENGE",
+                    "CAPTCHA_CHALLENGE"
+                ]
+            }
+        }
+    },
+    "Inferences_about_you.csv": {
+        "type": "csv",
+        "total_rows": 13,
+        "columns": {
+            "Category": {
+                "data_type": "string",
+                "example_values": [
+                    "Career inferences",
+                    "Career inferences",
+                    "Career inferences"
+                ]
+            },
+            "Type of inference": {
+                "data_type": "string",
+                "example_values": [
+                    "Sales professional",
+                    "Student",
+                    "Early stage of career"
+                ]
+            },
+            "Description": {
+                "data_type": "string",
+                "example_values": [
+                    "Based on factors such as your experience and profile headline.",
+                    "Based on your education on your profile and other factors.",
+                    "Early stage of career but not a student. Based on factors such as your industry and experience on your profile."
+                ]
+            },
+            "Inference": {
+                "data_type": "string",
+                "example_values": [
+                    "No",
+                    "No",
+                    "No"
+                ]
+            }
+        }
+    },
+    "InstantReposts.csv": {
+        "type": "csv",
+        "total_rows": 4,
+        "columns": {
+            "Date": {
+                "data_type": "string",
+                "example_values": [
+                    "2024-09-17 16:07:33",
+                    "2024-09-08 21:42:23",
+                    "2024-01-17 23:17:49"
+                ]
+            },
+            "Link": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7241840213335896065",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7238662984481345536",
+                    "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7153525851265912832"
+                ]
+            }
+        }
+    },
+    "Profile.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "First Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Sahil"
+                ]
+            },
+            "Last Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Lalani"
+                ]
+            },
+            "Maiden Name": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Address": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Birth Date": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Headline": {
+                "data_type": "string",
+                "example_values": [
+                    "Student at Purdue University and Product Development Engineer at Reach Best"
+                ]
+            },
+            "Summary": {
+                "data_type": "string",
+                "example_values": [
+                    "A highly motivated and enterprising 18-year-old with a keen interest in innovation and a strong drive to conceptualize and develop impactful projects that is currently working in the EdTech space. Proficient in marketing, developing, and iterating upon ideas, with a focus on seeing how AI can help students in the college application process."
+                ]
+            },
+            "Industry": {
+                "data_type": "string",
+                "example_values": [
+                    "Software Development"
+                ]
+            },
+            "Zip Code": {
+                "data_type": "string",
+                "example_values": [
+                    "20120"
+                ]
+            },
+            "Geo Location": {
+                "data_type": "string",
+                "example_values": [
+                    "Centreville, Virginia, United States"
+                ]
+            },
+            "Twitter Handles": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Websites": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Instant Messengers": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "Positions.csv": {
+        "type": "csv",
+        "total_rows": 8,
+        "columns": {
+            "Company Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Reach Best (Berkeley SkyDeck Pad-13)",
+                    "Reach Best (Berkeley SkyDeck Pad-13)",
+                    "Boy Scouts of America"
+                ]
+            },
+            "Title": {
+                "data_type": "string",
+                "example_values": [
+                    "Product Development Engineer",
+                    "Full Stack Engineer",
+                    "Eagle Scout"
+                ]
+            },
+            "Description": {
+                "data_type": "string",
+                "example_values": [
+                    "- building AI bots for students applying to college - in charge of Research and Development at Reach Best",
+                    "- built CDS Bot, a chatbot where students can chat with the Common Data Sets of over 40 colleges and universities within the U.S - demoed product to Reach Best leadership team - 5,000+ queries from students all across the world"
+                ]
+            },
+            "Location": {
+                "data_type": "string",
+                "example_values": [
+                    "Berkeley, California, United States",
+                    "Chantilly, Virginia, United States",
+                    "Chantilly, Virginia, United States"
+                ]
+            },
+            "Started On": {
+                "data_type": "string",
+                "example_values": [
+                    "Oct 2023",
+                    "May 2023",
+                    "Oct 2022"
+                ]
+            },
+            "Finished On": {
+                "data_type": "string",
+                "example_values": [
+                    "Jul 2023",
+                    "Oct 2022",
+                    "Oct 2022"
+                ]
+            }
+        }
+    },
+    "Receipts.csv": {
+        "type": "csv",
+        "total_rows": 1,
+        "columns": {
+            "First Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Sadiq"
+                ]
+            },
+            "Last Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Lalani"
+                ]
+            },
+            "Billing Country": {
+                "data_type": "string",
+                "example_values": [
+                    "us"
+                ]
+            },
+            "Postal Code": {
+                "data_type": "string",
+                "example_values": [
+                    "20120"
+                ]
+            },
+            "Transaction Made At": {
+                "data_type": "string",
+                "example_values": [
+                    "3/21/24, 2:27 AM"
+                ]
+            },
+            "Payment Method Type": {
+                "data_type": "string",
+                "example_values": [
+                    "CreditCard"
+                ]
+            },
+            "Invoice Number": {
+                "data_type": "string",
+                "example_values": [
+                    "9485404723"
+                ]
+            },
+            "Description": {
+                "data_type": "string",
+                "example_values": [
+                    "Premium Career Subscription (Monthly)"
+                ]
+            },
+            "Tax Amount": {
+                "data_type": "string",
+                "example_values": [
+                    "0"
+                ]
+            },
+            "Sub Total": {
+                "data_type": "string",
+                "example_values": [
+                    "0"
+                ]
+            },
+            "Total Amount": {
+                "data_type": "string",
+                "example_values": [
+                    "0"
+                ]
+            },
+            "Currency Code": {
+                "data_type": "string",
+                "example_values": [
+                    "USD"
+                ]
+            }
+        }
+    },
+    "Rich Media.csv": {
+        "type": "csv",
+        "total_rows": 2,
+        "columns": {
+            "Type": {
+                "data_type": "string",
+                "example_values": [
+                    "Video content can be downloaded at",
+                    "Documents can be downloaded at"
+                ]
+            },
+            "Link": {
+                "data_type": "string",
+                "example_values": [
+                    "https://www.linkedin.com/psettings/member-data/videos",
+                    "https://www.linkedin.com/psettings/rich-media"
+                ]
+            }
+        }
+    },
+    "Education.csv": {
+        "type": "csv",
+        "total_rows": 2,
+        "columns": {
+            "School Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Purdue University",
+                    "Chantilly High School"
+                ]
+            },
+            "Start Date": {
+                "data_type": "string",
+                "example_values": [
+                    "Aug 2023",
+                    "Aug 2019"
+                ]
+            },
+            "End Date": {
+                "data_type": "string",
+                "example_values": [
+                    "Jun 2027",
+                    "Jun 2023"
+                ]
+            },
+            "Notes": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Degree Name": {
+                "data_type": "string",
+                "example_values": [
+                    "Bachelor's degree"
+                ]
+            },
+            "Activities": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    },
+    "PhoneNumbers.csv": {
+        "type": "csv",
+        "total_rows": 2,
+        "columns": {
+            "Extension": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Number": {
+                "data_type": null,
+                "example_values": []
+            },
+            "Type": {
+                "data_type": null,
+                "example_values": []
+            }
+        }
+    }
+}
