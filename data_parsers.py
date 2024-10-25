@@ -64,85 +64,32 @@ def parse_js(file_path):
         print(f"No JSON-like structure found in {file_path}")
         return None
 
-def summarize_json(data, depth=0, max_depth=3):
-    if depth >= max_depth:
-        return "..."
-
-    if isinstance(data, dict):
-        return summarize_json_object(data, depth, max_depth)
-    elif isinstance(data, list):
-        return summarize_json_array(data, depth, max_depth)
-    else:
-        return type(data).__name__
-
-def summarize_json_object(json_obj, depth, max_depth):
-    summary = {}
-    for key, value in json_obj.items():
-        summary[key] = summarize_json(value, depth + 1, max_depth)
-    return summary
-
-def summarize_json_array(json_array, depth, max_depth):
-    if not json_array:
-        return []
-    
-    sample_item = json_array[0]
-    summary = summarize_json(sample_item, depth + 1, max_depth)
-    
+def parse_json(json_content):
     return {
-        "type": "array",
-        "total_items": len(json_array),
-        "sample_item": summary
+        'type': 'json',
+        'total_items': 1 if isinstance(json_content, dict) else len(json_content),
+        'columns': process_json_content(json_content)
     }
 
-# ... existing code ...
-def parse_json(json_content):
-    if isinstance(json_content, dict):
-        return process_json_object(json_content)
-    elif isinstance(json_content, list) and json_content:
-        return process_json_array(json_content)
+def process_json_content(content):
+    if isinstance(content, dict):
+        return process_json_object(content)
+    elif isinstance(content, list) and content:
+        return [process_json_object(item) for item in content[:1]]  # Process up to 3 items
+    elif isinstance(content, (str, int, float, bool)):
+        return {"data_type": infer_data_type(content) }
     else:
-        return {'type': 'json', 'keys': [], 'data_types': {}}
+        return {}
 
 def process_json_object(json_obj):
+    if not isinstance(json_obj, dict):
+        return process_json_content(json_obj)
+    
     columns_info = {}
     for key, value in json_obj.items():
-        data_type = infer_data_type(value)
-        columns_info[key] = {
-            "data_type": data_type,
-            "example_values": [str(value)]  # Truncate long values
-        }
-    return {
-        'type': 'json',
-        'total_items': 1,
-        'columns': columns_info
-    }
-
-def process_json_array(json_array):
-    columns_info = {}
-    for item in json_array:  # Process up to 10 items
-        for key, value in item.items():
-            if key not in columns_info:
-                columns_info[key] = {
-                    "data_type": None,
-                    "example_values": []
-                }
-            data_type = infer_data_type(value)
-            if columns_info[key]["data_type"] is None:
-                columns_info[key]["data_type"] = data_type
-            elif columns_info[key]["data_type"] != data_type:
-                columns_info[key]["data_type"] = "mixed"
-            if len(columns_info[key]["example_values"]) < 3:
-                columns_info[key]["example_values"].append(value)  # Truncate long values
-
-    # Post-processing
-    for info in columns_info.values():
-        if len(info["example_values"]) > 10:
-            info["example_values"] = None
+        if isinstance(value, (dict, list)):
+            # Recursively process nested objects or arrays
+            columns_info[key] = process_json_content(value)
         else:
-            info["example_values"] = list(info["example_values"])
-
-    return {
-        'type': 'json',
-        'total_items': len(json_array),
-        'columns': columns_info
-    }
+            columns_info[key] = infer_data_type(value)
+    return columns_info
