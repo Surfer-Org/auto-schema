@@ -1,0 +1,2732 @@
+{
+    "files": [
+        {
+            "name": "SearchQueries.csv",
+            "type": ".csv",
+            "columns": {
+                "error": "Error tokenizing data. C error: Expected 2 fields in line 1481, saw 3\n"
+            }
+        },
+        {
+            "name": "Endorsement_Received_Info.csv",
+            "type": ".csv",
+            "columns": {
+                "Endorsement Date": {
+                    "dtype": "object",
+                    "unique_values": 44,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024/03/21 02:27:02 UTC",
+                        "2024/01/27 21:20:37 UTC",
+                        "2024/01/27 21:20:31 UTC"
+                    ],
+                    "options": null
+                },
+                "Skill Name": {
+                    "dtype": "object",
+                    "unique_values": 16,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Xcode",
+                        "langchain",
+                        "Machine Learning"
+                    ],
+                    "options": null
+                },
+                "Endorser First Name": {
+                    "dtype": "object",
+                    "unique_values": 11,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Lahari",
+                        "Shantanu",
+                        "Shantanu"
+                    ],
+                    "options": null
+                },
+                "Endorser Last Name": {
+                    "dtype": "object",
+                    "unique_values": 11,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Lingam",
+                        "Roy",
+                        "Roy"
+                    ],
+                    "options": null
+                },
+                "Endorser Public Url": {
+                    "dtype": "object",
+                    "unique_values": 11,
+                    "null_count": 0,
+                    "sample_values": [
+                        "www.linkedin.com/in/lahari-lingam",
+                        "www.linkedin.com/in/shantanu-roy",
+                        "www.linkedin.com/in/shantanu-roy"
+                    ],
+                    "options": null
+                },
+                "Endorsement Status": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "ACCEPTED",
+                        "ACCEPTED",
+                        "ACCEPTED"
+                    ],
+                    "options": [
+                        "ACCEPTED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Certifications.csv",
+            "type": ".csv",
+            "columns": {
+                "Name": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Responsible Conduct of Research (RCR) Training - Undergraduate Course",
+                        "Microsoft Certified: Azure Fundamentals"
+                    ],
+                    "options": [
+                        "Responsible Conduct of Research (RCR) Training - Undergraduate Course",
+                        "Microsoft Certified: Azure Fundamentals"
+                    ]
+                },
+                "Url": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.citiprogram.org/verify/?w6bfc9b5b-7ed0-4a69-a695-30eb7211d041-54211754",
+                        "https://www.credly.com/badges/f47609ec-339e-48f1-b835-ce5490527683/linked_in_profile"
+                    ],
+                    "options": [
+                        "https://www.citiprogram.org/verify/?w6bfc9b5b-7ed0-4a69-a695-30eb7211d041-54211754",
+                        "https://www.credly.com/badges/f47609ec-339e-48f1-b835-ce5490527683/linked_in_profile"
+                    ]
+                },
+                "Authority": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "CITI Program",
+                        "Microsoft"
+                    ],
+                    "options": [
+                        "CITI Program",
+                        "Microsoft"
+                    ]
+                },
+                "Started On": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Feb 2023",
+                        "May 2023"
+                    ],
+                    "options": [
+                        "Feb 2023",
+                        "May 2023"
+                    ]
+                },
+                "Finished On": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 1,
+                    "sample_values": [
+                        "Feb 2027",
+                        NaN
+                    ],
+                    "options": [
+                        "Feb 2027",
+                        NaN
+                    ]
+                },
+                "License Number": {
+                    "dtype": "float64",
+                    "unique_values": 1,
+                    "null_count": 1,
+                    "sample_values": [
+                        54211754.0,
+                        NaN
+                    ],
+                    "options": [
+                        54211754.0,
+                        NaN
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Education.csv",
+            "type": ".csv",
+            "columns": {
+                "School Name": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Purdue University College of Engineering",
+                        "Thomas Jefferson High School for Science and Technology"
+                    ],
+                    "options": [
+                        "Purdue University College of Engineering",
+                        "Thomas Jefferson High School for Science and Technology"
+                    ]
+                },
+                "Start Date": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Aug 2022",
+                        "Aug 2018"
+                    ],
+                    "options": [
+                        "Aug 2022",
+                        "Aug 2018"
+                    ]
+                },
+                "End Date": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "May 2026",
+                        "Jun 2022"
+                    ],
+                    "options": [
+                        "May 2026",
+                        "Jun 2022"
+                    ]
+                },
+                "Notes": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Double minor in Artificial Intelligence and Mathematics",
+                        "Applicable coursework: Artificial Intelligence, AP Computer Science, Analog and Digital Electronics, Automation and Robotics, Computer Vision, AP Physics, AP Calculus BC, Multivar Calculus, Linear Algebra  #1 High School in National Rankings (U.S. News and World Report)  GPA 4.41"
+                    ],
+                    "options": [
+                        "Double minor in Artificial Intelligence and Mathematics",
+                        "Applicable coursework: Artificial Intelligence, AP Computer Science, Analog and Digital Electronics, Automation and Robotics, Computer Vision, AP Physics, AP Calculus BC, Multivar Calculus, Linear Algebra  #1 High School in National Rankings (U.S. News and World Report)  GPA 4.41"
+                    ]
+                },
+                "Degree Name": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 1,
+                    "sample_values": [
+                        "Bachelor of Engineering - BE",
+                        NaN
+                    ],
+                    "options": [
+                        "Bachelor of Engineering - BE",
+                        NaN
+                    ]
+                },
+                "Activities": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Purdue Founders, Boiler Bhangra, ML@Purdue, Photography Club, Undergraduate Research Accelerator LC",
+                        "TJ Crew, Automotive Engineering, Game Development Club, TJ UAV, TJ Golf, First Chair Alto Saxophone"
+                    ],
+                    "options": [
+                        "Purdue Founders, Boiler Bhangra, ML@Purdue, Photography Club, Undergraduate Research Accelerator LC",
+                        "TJ Crew, Automotive Engineering, Game Development Club, TJ UAV, TJ Golf, First Chair Alto Saxophone"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Member_Follows.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 72,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-07-31 23:47:47",
+                        "2024-07-30 20:19:34",
+                        "2024-07-27 10:50:30"
+                    ],
+                    "options": null
+                },
+                "Status": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Active",
+                        "Active",
+                        "Active"
+                    ],
+                    "options": [
+                        "Active",
+                        "Unfollow"
+                    ]
+                },
+                "FullName": {
+                    "dtype": "object",
+                    "unique_values": 71,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Asha Sharma",
+                        "Oluwapelumi Dada",
+                        "Victor Opara"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "messages.csv",
+            "type": ".csv",
+            "columns": {
+                "CONVERSATION ID": {
+                    "dtype": "object",
+                    "unique_values": 249,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2-NmFhZmY0ZWUtYWFiMi00MmZjLTkyZTktZGM4NzE2MzUyZWJkXzAxMA==",
+                        "2-NmFhZmY0ZWUtYWFiMi00MmZjLTkyZTktZGM4NzE2MzUyZWJkXzAxMA==",
+                        "2-NmFhZmY0ZWUtYWFiMi00MmZjLTkyZTktZGM4NzE2MzUyZWJkXzAxMA=="
+                    ],
+                    "options": null
+                },
+                "CONVERSATION TITLE": {
+                    "dtype": "object",
+                    "unique_values": 49,
+                    "null_count": 911,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": null
+                },
+                "FROM": {
+                    "dtype": "object",
+                    "unique_values": 190,
+                    "null_count": 1,
+                    "sample_values": [
+                        "Jack Blair",
+                        "Cl\u00e9ment Moutet",
+                        "Jack Blair"
+                    ],
+                    "options": null
+                },
+                "SENDER PROFILE URL": {
+                    "dtype": "object",
+                    "unique_values": 170,
+                    "null_count": 81,
+                    "sample_values": [
+                        "https://www.linkedin.com/in/jackblair876",
+                        "https://www.linkedin.com/in/clementmoutet",
+                        "https://www.linkedin.com/in/jackblair876"
+                    ],
+                    "options": null
+                },
+                "TO": {
+                    "dtype": "object",
+                    "unique_values": 127,
+                    "null_count": 5,
+                    "sample_values": [
+                        "Cl\u00e9ment Moutet",
+                        "Jack Blair",
+                        "Cl\u00e9ment Moutet"
+                    ],
+                    "options": null
+                },
+                "RECIPIENT PROFILE URLS": {
+                    "dtype": "object",
+                    "unique_values": 127,
+                    "null_count": 8,
+                    "sample_values": [
+                        "https://www.linkedin.com/in/clementmoutet",
+                        "https://www.linkedin.com/in/jackblair876",
+                        "https://www.linkedin.com/in/clementmoutet"
+                    ],
+                    "options": null
+                },
+                "DATE": {
+                    "dtype": "object",
+                    "unique_values": 995,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-08-11 10:11:51 UTC",
+                        "2024-08-10 14:56:17 UTC",
+                        "2024-08-10 03:28:06 UTC"
+                    ],
+                    "options": null
+                },
+                "SUBJECT": {
+                    "dtype": "object",
+                    "unique_values": 39,
+                    "null_count": 958,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": null
+                },
+                "CONTENT": {
+                    "dtype": "object",
+                    "unique_values": 918,
+                    "null_count": 13,
+                    "sample_values": [
+                        "nah",
+                        "We are always looking for people to test and contribute to the SDK : https://github.com/Vikit-ai/sdk Would you be available for a quick presentation / get to know call at some time slot ?",
+                        "Noice"
+                    ],
+                    "options": null
+                },
+                "FOLDER": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "INBOX",
+                        "INBOX",
+                        "INBOX"
+                    ],
+                    "options": [
+                        "INBOX",
+                        "ARCHIVE",
+                        "SPAM"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Endorsement_Given_Info.csv",
+            "type": ".csv",
+            "columns": {
+                "Endorsement Date": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2022/05/04 17:42:44 UTC",
+                        "2021/07/28 04:50:01 UTC",
+                        "2021/07/28 04:49:40 UTC"
+                    ],
+                    "options": [
+                        "2022/05/04 17:42:44 UTC",
+                        "2021/07/28 04:50:01 UTC",
+                        "2021/07/28 04:49:40 UTC"
+                    ]
+                },
+                "Skill Name": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Autodesk Fusion 360",
+                        "Leadership",
+                        "Artificial Intelligence (AI)"
+                    ],
+                    "options": [
+                        "Autodesk Fusion 360",
+                        "Leadership",
+                        "Artificial Intelligence (AI)"
+                    ]
+                },
+                "Endorsee First Name": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Daniel",
+                        "Ron",
+                        "Ron"
+                    ],
+                    "options": [
+                        "Daniel",
+                        "Ron"
+                    ]
+                },
+                "Endorsee Last Name": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "DeConti",
+                        "Nachum",
+                        "Nachum"
+                    ],
+                    "options": [
+                        "DeConti",
+                        "Nachum"
+                    ]
+                },
+                "Endorsee Public Url": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "www.linkedin.com/in/daniel-deconti",
+                        "www.linkedin.com/in/ron-nachum",
+                        "www.linkedin.com/in/ron-nachum"
+                    ],
+                    "options": [
+                        "www.linkedin.com/in/daniel-deconti",
+                        "www.linkedin.com/in/ron-nachum"
+                    ]
+                },
+                "Endorsement Status": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "ACCEPTED",
+                        "ACCEPTED",
+                        "ACCEPTED"
+                    ],
+                    "options": [
+                        "ACCEPTED"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Skills.csv",
+            "type": ".csv",
+            "columns": {
+                "Name": {
+                    "dtype": "object",
+                    "unique_values": 20,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Time Management",
+                        "API Development",
+                        "Redux.js"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "SavedJobAlerts.csv",
+            "type": ".csv",
+            "columns": {
+                "Saved Search Date": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "7/23/24, 10:42 PM",
+                        "12/10/23, 7:25 AM",
+                        "12/10/23, 7:25 AM"
+                    ],
+                    "options": [
+                        "7/23/24, 10:42 PM",
+                        "12/10/23, 7:25 AM",
+                        "9/13/22, 6:54 AM"
+                    ]
+                },
+                "Jobs Search Url": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/jobs/search?f_C=75637538&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=system+engineer&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=software+engineer&orig=JOB_ALERT"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/jobs/search?f_C=75637538&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=system+engineer&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=software+engineer&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=system+engineer&distance=24%2E9999301285&orig=JOB_ALERT",
+                        "https://www.linkedin.com/jobs/search?keywords=software+engineer&distance=24%2E9999301285&orig=JOB_ALERT"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Registration.csv",
+            "type": ".csv",
+            "columns": {
+                "Registered At": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "7/26/21, 7:23 PM"
+                    ],
+                    "options": [
+                        "7/26/21, 7:23 PM"
+                    ]
+                },
+                "Registration Ip": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Subscription Types": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "[Premium Career Subscription]"
+                    ],
+                    "options": [
+                        "[Premium Career Subscription]"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "InstantReposts.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-06-25 20:11:10",
+                        "2024-02-07 18:13:04"
+                    ],
+                    "options": [
+                        "2024-06-25 20:11:10",
+                        "2024-02-07 18:13:04"
+                    ]
+                },
+                "Link": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7211460940758704129",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7161059305213890561"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7211460940758704129",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7161059305213890561"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Invitations.csv",
+            "type": ".csv",
+            "columns": {
+                "From": {
+                    "dtype": "object",
+                    "unique_values": 239,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Jack Blair",
+                        "Jack Blair",
+                        "Jack Blair"
+                    ],
+                    "options": null
+                },
+                "To": {
+                    "dtype": "object",
+                    "unique_values": 972,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Sophia Kianni",
+                        "Minsuk Kang",
+                        "Augustin Tsang"
+                    ],
+                    "options": null
+                },
+                "Sent At": {
+                    "dtype": "object",
+                    "unique_values": 508,
+                    "null_count": 0,
+                    "sample_values": [
+                        "8/12/24, 1:52 PM",
+                        "8/10/24, 9:46 PM",
+                        "8/10/24, 9:46 PM"
+                    ],
+                    "options": null
+                },
+                "Message": {
+                    "dtype": "object",
+                    "unique_values": 32,
+                    "null_count": 1175,
+                    "sample_values": [
+                        "yo whst up",
+                        NaN,
+                        NaN
+                    ],
+                    "options": null
+                },
+                "Direction": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "OUTGOING",
+                        "OUTGOING",
+                        "OUTGOING"
+                    ],
+                    "options": [
+                        "OUTGOING",
+                        "INCOMING"
+                    ]
+                },
+                "inviterProfileUrl": {
+                    "dtype": "object",
+                    "unique_values": 239,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/in/jackblair876",
+                        "https://www.linkedin.com/in/jackblair876",
+                        "https://www.linkedin.com/in/jackblair876"
+                    ],
+                    "options": null
+                },
+                "inviteeProfileUrl": {
+                    "dtype": "object",
+                    "unique_values": 975,
+                    "null_count": 1,
+                    "sample_values": [
+                        "https://www.linkedin.com/in/sophiakianni",
+                        "https://www.linkedin.com/in/mika-gobi",
+                        "https://www.linkedin.com/in/augustin-tsang"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "Security Challenges.csv",
+            "type": ".csv",
+            "columns": {
+                "Challenge Date": {
+                    "dtype": "object",
+                    "unique_values": 4,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mon Nov 21 01:25:52 UTC 2022",
+                        "Wed Apr 05 20:53:01 UTC 2023",
+                        "Wed Apr 05 20:53:21 UTC 2023"
+                    ],
+                    "options": [
+                        "Mon Nov 21 01:25:52 UTC 2022",
+                        "Wed Apr 05 20:53:01 UTC 2023",
+                        "Wed Apr 05 20:53:21 UTC 2023",
+                        "Sun Jul 14 16:26:11 UTC 2024"
+                    ]
+                },
+                "IP Address": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2607:ac80:412:0:2136:81e4:893b:21cb",
+                        "128.210.107.81",
+                        "128.210.107.81"
+                    ],
+                    "options": [
+                        "2607:ac80:412:0:2136:81e4:893b:21cb",
+                        "128.210.107.81",
+                        "2607:fb90:9e6b:c1b1:3041:ba8f:a7d2:2422"
+                    ]
+                },
+                "User Agent": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+                    ],
+                    "options": [
+                        "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+                        "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+                    ]
+                },
+                "Country": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "United States",
+                        "United States",
+                        "United States"
+                    ],
+                    "options": [
+                        "United States"
+                    ]
+                },
+                "Challenge Type": {
+                    "dtype": "object",
+                    "unique_values": 4,
+                    "null_count": 0,
+                    "sample_values": [
+                        "EMAIL_PIN_CHALLENGE",
+                        "REHAB_RESTRICTION_CHALLENGE",
+                        "PIN_CHALLENGE"
+                    ],
+                    "options": [
+                        "EMAIL_PIN_CHALLENGE",
+                        "REHAB_RESTRICTION_CHALLENGE",
+                        "PIN_CHALLENGE",
+                        "SSP_BLOCKING_CHALLENGE"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Logins.csv",
+            "type": ".csv",
+            "columns": {
+                "Login Date": {
+                    "dtype": "object",
+                    "unique_values": 85,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mon Nov 21 01:25:52 UTC 2022",
+                        "Mon Nov 21 01:25:55 UTC 2022",
+                        "Sat Nov 26 16:34:43 UTC 2022"
+                    ],
+                    "options": null
+                },
+                "IP Address": {
+                    "dtype": "object",
+                    "unique_values": 40,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2607:ac80:412:0:2136:81e4:893b:21cb",
+                        "2607:ac80:412:0:2c1e:fca6:92bc:2bb9",
+                        "50.109.98.137"
+                    ],
+                    "options": null
+                },
+                "User Agent": {
+                    "dtype": "object",
+                    "unique_values": 24,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+                        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+                    ],
+                    "options": null
+                },
+                "Login Type": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Login",
+                        "Login",
+                        "Login"
+                    ],
+                    "options": [
+                        "Login"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Profile Summary.csv",
+            "type": ".csv",
+            "columns": {
+                "error": "DataFrame is empty. Pleaseprovide a non-empty DataFrame."
+            }
+        },
+        {
+            "name": "Profile.csv",
+            "type": ".csv",
+            "columns": {
+                "First Name": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Jack"
+                    ],
+                    "options": [
+                        "Jack"
+                    ]
+                },
+                "Last Name": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Blair"
+                    ],
+                    "options": [
+                        "Blair"
+                    ]
+                },
+                "Maiden Name": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Address": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Birth Date": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Headline": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "\ud83c\udf93 PURDUE '26 | \ud83c\udf93 TJHSST '22 |  \ud83d\udd2d 2x Founder | \ud83e\udde0 AI Researcher | \ud83d\udcbb Full Stack Developer | \ud83e\udd85 Eagle Scout"
+                    ],
+                    "options": [
+                        "\ud83c\udf93 PURDUE '26 | \ud83c\udf93 TJHSST '22 |  \ud83d\udd2d 2x Founder | \ud83e\udde0 AI Researcher | \ud83d\udcbb Full Stack Developer | \ud83e\udd85 Eagle Scout"
+                    ]
+                },
+                "Summary": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Hello! I'm an eager Purdue Engineer in the Startup/VC world! Over the past few years, I have built a wide variety of projects- ranging from an autonomous photography drone, a liquid-fueled rocket engine, a novel sports analytics product, and a cutting edge agriculture stereo imaging system.  \ud835\udddc \ud835\uddee\ud835\uddfa \ud835\uddfb\ud835\uddf2\ud835\ude03\ud835\uddf2\ud835\uddff \ud835\uddf6\ud835\uddf1\ud835\uddf9\ud835\uddf2.  You will see me constantly coding a side project or buying materials from McMaster. Here are some of my current projects: - A powerful music analytics database compiled from the Spotify, Genius, Musixmatch, and YouTube APIs. As far as I have found it is the largest single compiled database from all these sources. My goal is to analyze trends from over 400 GB of data to predict which artist will have the next big song, how words/phrases are trending over time, and how \"genres\" of music are clustered in our mind.   - A mobile application used to schedule rowing lineups weeks in advance and integrate rowers statistics more directly into the lineup creating process. Using Flutter and Firebase, I am working to help coaches make the fastest boats possible for their teams.  My real passion lies in entertainment technology- projects like innovative roller coaster designs, visual and audial spatial mapping, AI generated music, and whatever technologies will take over the future of entertainment. I have a Notion page full of ideas that I add to multiple times a day.  \ud835\udddc \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddff\ud835\uddfb \ud835\uddf3\ud835\uddee\ud835\ude00\ud835\ude01.  One side effect of having a wide variety of interests is that I have learned how to quickly research topics and learn new software. Just in my free time, I have learned how to use Blender, Unity, OBS, Logic Pro, and Final Cut. I learned react native in just two weeks, then built a backend on Express and EC2 in days.  \ud835\udddc \ud835\uddee\ud835\uddfa \ud835\uddee \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddf1\ud835\uddf2\ud835\uddff \ud835\ude01\ud835\uddfc\ud835\uddfc.  When I was 15 years old, I brought together 50+ volunteers to help revitalize an area of a local park. I learned the importance of being confident and decisive, yet cordial. Since then, I have led many project teams across different goals and disciplines. I learned to be accountable to school sponsors, assign meaningful tasks to team members, and command attention during introductions or presentations.  My leadership was pushed hardest when I recruited and led a year-long research project developing a new data collection product for my crew team. I learned how to empower my engineers to be most productive through communication, planning, and emphasizing focus on our goal. Most importantly, I learned how to organize myself and jump between very technical and large-scale goals quickly."
+                    ],
+                    "options": [
+                        "Hello! I'm an eager Purdue Engineer in the Startup/VC world! Over the past few years, I have built a wide variety of projects- ranging from an autonomous photography drone, a liquid-fueled rocket engine, a novel sports analytics product, and a cutting edge agriculture stereo imaging system.  \ud835\udddc \ud835\uddee\ud835\uddfa \ud835\uddfb\ud835\uddf2\ud835\ude03\ud835\uddf2\ud835\uddff \ud835\uddf6\ud835\uddf1\ud835\uddf9\ud835\uddf2.  You will see me constantly coding a side project or buying materials from McMaster. Here are some of my current projects: - A powerful music analytics database compiled from the Spotify, Genius, Musixmatch, and YouTube APIs. As far as I have found it is the largest single compiled database from all these sources. My goal is to analyze trends from over 400 GB of data to predict which artist will have the next big song, how words/phrases are trending over time, and how \"genres\" of music are clustered in our mind.   - A mobile application used to schedule rowing lineups weeks in advance and integrate rowers statistics more directly into the lineup creating process. Using Flutter and Firebase, I am working to help coaches make the fastest boats possible for their teams.  My real passion lies in entertainment technology- projects like innovative roller coaster designs, visual and audial spatial mapping, AI generated music, and whatever technologies will take over the future of entertainment. I have a Notion page full of ideas that I add to multiple times a day.  \ud835\udddc \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddff\ud835\uddfb \ud835\uddf3\ud835\uddee\ud835\ude00\ud835\ude01.  One side effect of having a wide variety of interests is that I have learned how to quickly research topics and learn new software. Just in my free time, I have learned how to use Blender, Unity, OBS, Logic Pro, and Final Cut. I learned react native in just two weeks, then built a backend on Express and EC2 in days.  \ud835\udddc \ud835\uddee\ud835\uddfa \ud835\uddee \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddf1\ud835\uddf2\ud835\uddff \ud835\ude01\ud835\uddfc\ud835\uddfc.  When I was 15 years old, I brought together 50+ volunteers to help revitalize an area of a local park. I learned the importance of being confident and decisive, yet cordial. Since then, I have led many project teams across different goals and disciplines. I learned to be accountable to school sponsors, assign meaningful tasks to team members, and command attention during introductions or presentations.  My leadership was pushed hardest when I recruited and led a year-long research project developing a new data collection product for my crew team. I learned how to empower my engineers to be most productive through communication, planning, and emphasizing focus on our goal. Most importantly, I learned how to organize myself and jump between very technical and large-scale goals quickly."
+                    ]
+                },
+                "Industry": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Technology, Information and Internet"
+                    ],
+                    "options": [
+                        "Technology, Information and Internet"
+                    ]
+                },
+                "Zip Code": {
+                    "dtype": "int64",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        94066
+                    ],
+                    "options": [
+                        94066
+                    ]
+                },
+                "Geo Location": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "San Francisco Bay Area"
+                    ],
+                    "options": [
+                        "San Francisco Bay Area"
+                    ]
+                },
+                "Twitter Handles": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Websites": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "[PERSONAL:jack-blair.com,COMPANY:https://straightouttaharbour.com]"
+                    ],
+                    "options": [
+                        "[PERSONAL:jack-blair.com,COMPANY:https://straightouttaharbour.com]"
+                    ]
+                },
+                "Instant Messengers": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Reactions.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 592,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-08-13 18:27:48",
+                        "2024-08-13 18:27:39",
+                        "2024-08-13 18:00:02"
+                    ],
+                    "options": null
+                },
+                "Type": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "LIKE",
+                        "LIKE",
+                        "LIKE"
+                    ],
+                    "options": [
+                        "LIKE"
+                    ]
+                },
+                "Link": {
+                    "dtype": "object",
+                    "unique_values": 593,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7228784908549206019",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7228704385638301696",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7228859443814281218"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "Votes.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-05-18 00:15:17",
+                        "2024-05-11 02:18:07",
+                        "2024-03-18 21:17:48"
+                    ],
+                    "options": [
+                        "2024-05-18 00:15:17",
+                        "2024-05-11 02:18:07",
+                        "2024-03-18 21:17:48",
+                        "2024-03-13 20:55:03",
+                        "2023-08-12 00:21:38",
+                        "2023-05-06 04:32:25",
+                        "2023-01-13 01:41:41",
+                        "2023-01-12 22:10:58",
+                        "2023-01-12 22:08:38"
+                    ]
+                },
+                "Link": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7197268631334903808",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7194672429992984577",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7173946154924036096"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7197268631334903808",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7194672429992984577",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7173946154924036096",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7173665655169249281",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7095761115715878912",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7059964149690216449",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7015429814547288065",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7019025613202108416",
+                        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7018223585559293952"
+                    ]
+                },
+                "OptionText": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Hell yea \ud83d\ude0e\ud83d\udd25",
+                        ". . depends \u262f\ufe0f",
+                        "Yes!"
+                    ],
+                    "options": [
+                        "Hell yea \ud83d\ude0e\ud83d\udd25",
+                        ". . depends \u262f\ufe0f",
+                        "Yes!",
+                        "Fake small talk \ud83d\ude36\u200d\ud83c\udf2b\ufe0f",
+                        "Superhuman",
+                        "Open source",
+                        "\u2705 Yes",
+                        "Yes! Of Corse",
+                        "Opportunity"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Company Follows.csv",
+            "type": ".csv",
+            "columns": {
+                "Organization": {
+                    "dtype": "object",
+                    "unique_values": 113,
+                    "null_count": 0,
+                    "sample_values": [
+                        "StartOps",
+                        "JigsawStack",
+                        "Reworkd (YC S23)"
+                    ],
+                    "options": null
+                },
+                "Followed On": {
+                    "dtype": "object",
+                    "unique_values": 109,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mon Aug 12 09:44:32 UTC 2024",
+                        "Sun Aug 04 17:28:25 UTC 2024",
+                        "Sat Jul 27 09:59:38 UTC 2024"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "Member Hashtags.csv",
+            "type": ".csv",
+            "columns": {
+                "Member Posts About Hashtags": {
+                    "dtype": "object",
+                    "unique_values": 4,
+                    "null_count": 0,
+                    "sample_values": [
+                        "aiagents",
+                        "visualdesign",
+                        "entrepreneurship"
+                    ],
+                    "options": [
+                        "aiagents",
+                        "visualdesign",
+                        "entrepreneurship",
+                        "artificialintelligence"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Connections.csv",
+            "type": ".csv",
+            "columns": {
+                "error": "Error tokenizing data. C error: Expected 1 fields in line 4, saw 7\n"
+            }
+        },
+        {
+            "name": "Saved_Items.csv",
+            "type": ".csv",
+            "columns": {
+                "savedItem": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7227734944674893824",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7213167977028812800",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7155971483935084544"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7227734944674893824",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7213167977028812800",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7155971483935084544",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7154835036444266497",
+                        "https://www.linkedin.com/feed/update/urn:li:activity:7013770452883972096"
+                    ]
+                },
+                "createdTime": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-08-10 03:21:22",
+                        "2024-07-04 21:19:46",
+                        "2024-01-28 02:16:24"
+                    ],
+                    "options": [
+                        "2024-08-10 03:21:22",
+                        "2024-07-04 21:19:46",
+                        "2024-01-28 02:16:24",
+                        "2024-01-28 02:15:47",
+                        "2022-12-30 07:20:21"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Rich Media.csv",
+            "type": ".csv",
+            "columns": {
+                "Type": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Video content can be downloaded at",
+                        "Documents can be downloaded at"
+                    ],
+                    "options": [
+                        "Video content can be downloaded at",
+                        "Documents can be downloaded at"
+                    ]
+                },
+                "Link": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/psettings/member-data/videos",
+                        "https://www.linkedin.com/psettings/rich-media"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/psettings/member-data/videos",
+                        "https://www.linkedin.com/psettings/rich-media"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Comments.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 41,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-07-22 02:04:27",
+                        "2024-07-15 08:49:12",
+                        "2024-06-26 06:46:27"
+                    ],
+                    "options": null
+                },
+                "Link": {
+                    "dtype": "object",
+                    "unique_values": 39,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7219793215577583617",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7218532909358432257",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7211390125031796739"
+                    ],
+                    "options": null
+                },
+                "Message": {
+                    "dtype": "object",
+                    "unique_values": 39,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Sebastian Illing agreed. any updates? we have no access still.",
+                        "noice",
+                        "Groq yall got competition"
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "Positions.csv",
+            "type": ".csv",
+            "columns": {
+                "Company Name": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "The Residency",
+                        "Quasi",
+                        "Quasi"
+                    ],
+                    "options": [
+                        "The Residency",
+                        "Quasi",
+                        "Orchard Robotics",
+                        "SmartSkeg",
+                        "Project Caelus",
+                        "TJHSST Automotive Engineering",
+                        "TJUAV",
+                        "Boy Scouts of America",
+                        "Quarantine CompSci Tutoring"
+                    ]
+                },
+                "Title": {
+                    "dtype": "object",
+                    "unique_values": 14,
+                    "null_count": 0,
+                    "sample_values": [
+                        "AI Resident",
+                        "Sr. Artificial Intelligence Engineer",
+                        "Full-stack Developer"
+                    ],
+                    "options": null
+                },
+                "Description": {
+                    "dtype": "object",
+                    "unique_values": 13,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN,
+                        "\u2022 Led a small team to build a generative AI entertainment app. Built unique creation algorithms to generate pieces of content dynamically as the user interacted with the app.  \u2022 Built on top of generative AI tools such as Stable Diffusion, GPT-4, Langchain, MusicLM, Runway, etc to create many modalities of entertainment. Created meta-prompting architectures to adapt these creations to user preferences over time. Some of these models were implemented into production with days of their release.",
+                        "\u2022 Led development of iOS app. Used Xcode, swift, javascript, firebase, and postman to build scalable fullstack code. Iterated from user feedback to adapt our user interface to be more intuitive. \u2022 Managed backend database of several thousand users. Created rigorously tested endpoints and optimized backend calls. Interacted with several external APIs."
+                    ],
+                    "options": null
+                },
+                "Location": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 7,
+                    "sample_values": [
+                        "Berkeley, California, United States",
+                        "Seattle, Washington, United States",
+                        "Seattle, Washington, United States"
+                    ],
+                    "options": [
+                        "Berkeley, California, United States",
+                        "Seattle, Washington, United States",
+                        "Ithaca, New York, United States",
+                        NaN,
+                        "Virginia, United States",
+                        "Troop 976"
+                    ]
+                },
+                "Started On": {
+                    "dtype": "object",
+                    "unique_values": 13,
+                    "null_count": 0,
+                    "sample_values": [
+                        "May 2024",
+                        "Jun 2023",
+                        "Oct 2022"
+                    ],
+                    "options": null
+                },
+                "Finished On": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN,
+                        "Sep 2023",
+                        "Jun 2023"
+                    ],
+                    "options": [
+                        NaN,
+                        "Sep 2023",
+                        "Jun 2023",
+                        "Aug 2022",
+                        "Jul 2022",
+                        "Jun 2022",
+                        "Jul 2021",
+                        "Jun 2021",
+                        "Feb 2021",
+                        "Oct 2020"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "coach_messages.csv",
+            "type": ".csv",
+            "columns": {
+                "error": "DataFrame is empty. Pleaseprovide a non-empty DataFrame."
+            }
+        },
+        {
+            "name": "Events.csv",
+            "type": ".csv",
+            "columns": {
+                "Event Name": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Are Vector Databases Here To Stay? Hosted by Weaviate CEO and Nomic CTO",
+                        "AI For Designers #10",
+                        "How to use Generative AI and Data for Hyper-Personalized Content Marketing!"
+                    ],
+                    "options": [
+                        "Are Vector Databases Here To Stay? Hosted by Weaviate CEO and Nomic CTO",
+                        "AI For Designers #10",
+                        "How to use Generative AI and Data for Hyper-Personalized Content Marketing!"
+                    ]
+                },
+                "Event Time": {
+                    "dtype": "object",
+                    "unique_values": 3,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Feb 14, 2024 05:00 PM - Feb 14, 2024 06:00 PM",
+                        "Jan 11, 2024 02:30 AM - Jan 11, 2024 04:00 AM",
+                        "May 24, 2024 02:30 PM - May 24, 2024 03:30 PM"
+                    ],
+                    "options": [
+                        "Feb 14, 2024 05:00 PM - Feb 14, 2024 06:00 PM",
+                        "Jan 11, 2024 02:30 AM - Jan 11, 2024 04:00 AM",
+                        "May 24, 2024 02:30 PM - May 24, 2024 03:30 PM"
+                    ]
+                },
+                "Status": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "RELINQUISHED",
+                        "APPROVED",
+                        "RELINQUISHED"
+                    ],
+                    "options": [
+                        "RELINQUISHED",
+                        "APPROVED"
+                    ]
+                },
+                "External Url": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 2,
+                    "sample_values": [
+                        "https://crowdcast.io/c/are-vector-databases-here-to-stay",
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        "https://crowdcast.io/c/are-vector-databases-here-to-stay",
+                        NaN
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PhoneNumbers.csv",
+            "type": ".csv",
+            "columns": {
+                "Extension": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 2,
+                    "sample_values": [
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Number": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 1,
+                    "sample_values": [
+                        " +1 540-227-0550",
+                        NaN
+                    ],
+                    "options": [
+                        " +1 540-227-0550",
+                        NaN
+                    ]
+                },
+                "Type": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 2,
+                    "sample_values": [
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Ad_Targeting.csv",
+            "type": ".csv",
+            "columns": {
+                "Member Age": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "18 to 24"
+                    ],
+                    "options": [
+                        "18 to 24"
+                    ]
+                },
+                "Buyer Groups": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Company Names": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ],
+                    "options": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ]
+                },
+                "Company Names.1": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ],
+                    "options": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ]
+                },
+                "Company Follower of": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Computer-Aided Design (CAD); SVBIG; Weaviate; Perplexity; Google Research; The Residency; Scale AI; Runway; ChatGPT & AI News; Orchard; Purdue University College of Engineering; LlamaIndex; Pingr; API Development; HeyGen; Ascend; ChatGPT; Uniform Sierra Aerospace; ChatGPT; Homebrew (Formerly Jan); The GenAI Collective; Brev.dev; Groq; Langflow; SK Techs Pvt.; SparkTank; Soverai; Pinecone; Quasi; Inflection AI; HawkenIO; Vytal ; Tesla; Microsoft Research; n8n; Contrary Research; SkyeBrowse; Rivian; Purdue Filipino Association; Anysphere; ElevenLabs; Cognition; NASA - National Aeronautics and Space Administration; Microsoft; Midjourney; rabbit inc.; Women Founders; AI at Meta; DevHeads IoT Integration Server; Project Caelus; LLMOps Space; AI Community; Skalara; Anthropic; Mistral AI; LangChain; ML@Purdue; Purdue University; .406 Ventures; Academy of Model Aeronautics; JigsawStack; Likewise Learn; Sonder Labs; Nivaro; Academies of Loudoun; Microsoft for Startups; Acheev Corporation; DoWhile AI; Cohere For AI; Gradient; Discourse; Snorkel AI; Archbee (YC S21); Mintlify; Machine Learning; Reworkd (YC S23); Indian Startup News; Google DeepMind; Generative AI; Together AI; MIT Computer Science and Artificial Intelligence Laboratory (CSAIL); Jsonify; Y Combinator; Julius AI; Palantir Technologies; Boy Scouts of America; Purdue Innovates; Stability AI; Vapi; TJUAV; OpenAI; ChatGPT Turing Test; Artificial Intelligence; Purdue Computer Science; Shield AI; CHAI: AI Platform; PrepWise; Software Development; Contrary; Ollama; Thomas Jefferson High School for Science and Technology; Invisibility; SmartSkeg; Instachip; Augmentation Lab; SpaceX; Zipline; MultiOn; Founders; Airoma; Hugging Face; 3D Modeling; Mo Money"
+                    ],
+                    "options": [
+                        "Computer-Aided Design (CAD); SVBIG; Weaviate; Perplexity; Google Research; The Residency; Scale AI; Runway; ChatGPT & AI News; Orchard; Purdue University College of Engineering; LlamaIndex; Pingr; API Development; HeyGen; Ascend; ChatGPT; Uniform Sierra Aerospace; ChatGPT; Homebrew (Formerly Jan); The GenAI Collective; Brev.dev; Groq; Langflow; SK Techs Pvt.; SparkTank; Soverai; Pinecone; Quasi; Inflection AI; HawkenIO; Vytal ; Tesla; Microsoft Research; n8n; Contrary Research; SkyeBrowse; Rivian; Purdue Filipino Association; Anysphere; ElevenLabs; Cognition; NASA - National Aeronautics and Space Administration; Microsoft; Midjourney; rabbit inc.; Women Founders; AI at Meta; DevHeads IoT Integration Server; Project Caelus; LLMOps Space; AI Community; Skalara; Anthropic; Mistral AI; LangChain; ML@Purdue; Purdue University; .406 Ventures; Academy of Model Aeronautics; JigsawStack; Likewise Learn; Sonder Labs; Nivaro; Academies of Loudoun; Microsoft for Startups; Acheev Corporation; DoWhile AI; Cohere For AI; Gradient; Discourse; Snorkel AI; Archbee (YC S21); Mintlify; Machine Learning; Reworkd (YC S23); Indian Startup News; Google DeepMind; Generative AI; Together AI; MIT Computer Science and Artificial Intelligence Laboratory (CSAIL); Jsonify; Y Combinator; Julius AI; Palantir Technologies; Boy Scouts of America; Purdue Innovates; Stability AI; Vapi; TJUAV; OpenAI; ChatGPT Turing Test; Artificial Intelligence; Purdue Computer Science; Shield AI; CHAI: AI Platform; PrepWise; Software Development; Contrary; Ollama; Thomas Jefferson High School for Science and Technology; Invisibility; SmartSkeg; Instachip; Augmentation Lab; SpaceX; Zipline; MultiOn; Founders; Airoma; Hugging Face; 3D Modeling; Mo Money"
+                    ]
+                },
+                "Company Names.2": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ],
+                    "options": [
+                        "TJUAV; Orchard; Quasi; TJHSST Automotive Engineering; Project Caelus; SmartSkeg; Boy Scouts of America"
+                    ]
+                },
+                "Company Category": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Company Size": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2-10 employees"
+                    ],
+                    "options": [
+                        "2-10 employees"
+                    ]
+                },
+                "Degrees": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Bachelor's Degree; Bachelor of Engineering"
+                    ],
+                    "options": [
+                        "Bachelor's Degree; Bachelor of Engineering"
+                    ]
+                },
+                "degreeClass": {
+                    "dtype": "int64",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        200
+                    ],
+                    "options": [
+                        200
+                    ]
+                },
+                "Member Schools": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Thomas Jefferson High School for Science and Technology; Purdue University College of Engineering"
+                    ],
+                    "options": [
+                        "Thomas Jefferson High School for Science and Technology; Purdue University College of Engineering"
+                    ]
+                },
+                "Company Growth Rate": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "20%+ company growth"
+                    ],
+                    "options": [
+                        "20%+ company growth"
+                    ]
+                },
+                "Fields of Study": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "VISUAL AND PERFORMING ARTS; Design Engineering; Mechatronics, Robotics, and Automation Engineering; ENGINEERING"
+                    ],
+                    "options": [
+                        "VISUAL AND PERFORMING ARTS; Design Engineering; Mechatronics, Robotics, and Automation Engineering; ENGINEERING"
+                    ]
+                },
+                "Company Connections": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Function By Size": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Job Functions": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Engineering"
+                    ],
+                    "options": [
+                        "Engineering"
+                    ]
+                },
+                "Member Gender": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 1,
+                    "sample_values": [
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Graduation Year": {
+                    "dtype": "int64",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        2026
+                    ],
+                    "options": [
+                        2026
+                    ]
+                },
+                "Member Groups": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Autonomous AI; Purdue John Martinson Entrepreneurial Center (JMEC, https://engineering.purdue.edu/JMEC); Purdue Interdisciplinary Engineering Studies & Multidisciplinary Engineering Alumni"
+                    ],
+                    "options": [
+                        "Autonomous AI; Purdue John Martinson Entrepreneurial Center (JMEC, https://engineering.purdue.edu/JMEC); Purdue Interdisciplinary Engineering Studies & Multidisciplinary Engineering Alumni"
+                    ]
+                },
+                "Company Industries": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Software Development; Technology, Information and Internet; Technology, Information and Media"
+                    ],
+                    "options": [
+                        "Software Development; Technology, Information and Internet; Technology, Information and Media"
+                    ]
+                },
+                "Member Interests": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Software Development Software; Web Frameworks; Engineering Software; Machine Learning Software & Platforms; Game Engine Software; IT Services; Data Science Software"
+                    ],
+                    "options": [
+                        "Software Development Software; Web Frameworks; Engineering Software; Machine Learning Software & Platforms; Game Engine Software; IT Services; Data Science Software"
+                    ]
+                },
+                "Interface Locales": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "English"
+                    ],
+                    "options": [
+                        "English"
+                    ]
+                },
+                "interfaceLocale": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "en_US"
+                    ],
+                    "options": [
+                        "en_US"
+                    ]
+                },
+                "Member Traits": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Mac; Desktop/Laptop Users; 3; Career Changers"
+                    ],
+                    "options": [
+                        "Mac; Desktop/Laptop Users; 3; Career Changers"
+                    ]
+                },
+                "Profile Locations": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "San Francisco Bay Area; California, United States; North America; San Mateo County, CA; San Francisco Bay Area; North America; NAMER; United States; United States; California; San Bruno, CA"
+                    ],
+                    "options": [
+                        "San Francisco Bay Area; California, United States; North America; San Mateo County, CA; San Francisco Bay Area; North America; NAMER; United States; United States; California; San Bruno, CA"
+                    ]
+                },
+                "Company Revenue": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Under $1M"
+                    ],
+                    "options": [
+                        "Under $1M"
+                    ]
+                },
+                "Job Seniorities": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Training"
+                    ],
+                    "options": [
+                        "Training"
+                    ]
+                },
+                "Member Skills": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Large-scale Data Analysis; Grunt (Software); Persuasive Presentations; CAPE; Stable Diffusion; Presentation Coaching; Materials Testing; IP Cameras; Project Engineering; Large Scale Deployments; LESS (Stylesheet Language); Workload Automation; Open-Source Development; Pro*C; Sponsorship Marketing; Dentrix; Conflict Management; Behavior-Driven Development (BDD); Technical Presentations; Presentation Development; Model Making; Algorithm Design; SIGINT; Web Application Development; Hypertext Transfer Protocol Secure (HTTPS); Virtual Teams; Computer-Aided Manufacturing (CAM); Predictive Analytics; Retrofit; Compensation Benchmarking; Unity; Generative AI; Hardware Development; Digital Circuit Design; Business Writing; Media Production; Project Tracking; Graphics Layout; Eaglesoft; Cloud Security; Migration Projects; Microsoft Applications; International Benchmarking; Military Training; Project Team Management; Salary Benchmarking; Pre-Sales Consulting; Handle Confidential Information; Battery Management Systems; Exploratory Data Analysis; SASS; Spanish Translation; Excel Models; School Social Work; Behavioral Sciences; Back-end Operations; Song Production; .NET Framework; Home Cleaning; Field Service Engineering; Technical Solution Development; Project Leadership; EMC Storage Products; Information Extraction; AngularJS; New Model Launch; Powertrain; RC; Complex Project Management; Law Enforcement Intelligence; 3D Scanning; iOS Development; Nuclear Physics; Visual Analytics; Evolutionary Algorithms; Visual Sciences; Technical Solution Design; Architecture; App Store; SOLIDWORKS; Engineering Design; SmartPlant; Office Cleaning; Swift (Programming Language); Petroleum Engineering; Television Directing; Primary Research; Broadcast Production; Xcode; Benchmarking; Trend Analysis; Professional Phone Skills; Manufacturing Software; Wildlife Management; Unsupervised Learning; English to Spanish; Venture Financing; Wheelchairs; Final Cut Studio; Landscape Photography; API Testing; Logic Pro; Film Scoring; Photogrammetry; Computer Vision; Microsoft 365; Plumbing Design; Online Content Creation; Yacht Racing; Business Strategy; Mailroom Operations; JavaScript; Database Testing; Black Box Testing; Professional Skills; Test Management; GitHub; Level Design; Flask; Parallel Algorithms; Professional Cleaning; Test Stand; Siemens NX; Go (Programming Language); LiveSite; Search Algorithms; Building Management Systems; Project Management Body of Knowledge (PMBOK); DaVinci Resolve; CAD Standards; Business Intelligence Tools; Unmanned Vehicles; Mobile Application Development; Cognitive Science; Remote User Support; Statistical Modeling; Vue.js; PS3; Adobe Creative Cloud; Manufacturing Automation; Project Plans; Building Business Relationships; Administrative Organization; Client Relationship Strengthening; Web Services API; Court Proceedings; Smart Serve Certified; Dart; Hardware Support; Data Engineering; Data Transformation; Engineering Analysis; Hands-on Training; Interbase; Automotive Electrical Systems; Java API; Underground Structures; OnBase; Planning & Scheduling; GPT-4; Large Group Facilitation; Steel Structures; Technical Seminars; iPhone Application Development; Economic Modeling; Aerial Photography; Promo Videos; Streaming Media; Database Development; Graphical Models; Project Initiation; Piping and Instrumentation Drawing (P&ID); BERT (Language Model); Electric Propulsion; Printed Circuit Board; Change Management; Adventure Racing; Optical Engineering; Deep Learning; Xamarin Products; TypeScript; ModelSim; SDKs; Django; CATIA; Risk Analytics; Research Projects; Group Presentations; Operations Research; Power System Studies; Content Design; Database Queries; Nitrous Oxide; Eagle PACE; Machine Learning; Money Management; Online Research; Sketching; JavaScript Libraries; Google API; Data Analytics; 3D Visualization; Radio Frequency (RF) Engineering; Pipeline Construction; Criminal Investigations; MIMO; LaTeX; Genetic Algorithms; EDA; Regression Models; Product Demonstration; ZBrush; Stormwater Management; Marine Engineering; User Scenarios; Reinforcement Learning; ASP.NET; SmartSketch; Large Scale Development; Pattern Recognition; Engineering Drawings; YouTube API; Cinematography; Mocha (JavaScript Framework); Relational Databases; Project Delivery; Embedded Engineers; Graphic Design Software; Team Leadership; Autonomous Maintenance; Transmedia Storytelling; Moldmaking; Autopilot; Firebase; TeamCity; Geomatics; Proteus; Cloud Infrastructure; Transfer Learning; Video Production; Foreign Languages; Urban Redevelopment; Command and Control; Hiring Practices; Compensation Strategies; Pre-production; Task Management; RC Detailing; Computer-Aided Design (CAD); PTC Creo; Bug Tracking; Autodesk Software; Timber Structures; Mean Stack; Google Cloud Platform (GCP); Analog-to-Digital Converters (ADC); Creative Content Creation; Financial Data Analysis; Apache Cordova; Vuex; University Teaching; Investing; IT Project Lifecycle; Target Market Selling; Disability Management; Integrated Development Environments; Supermarkets; Medical Gas; QuickBase; Deadline Oriented; Parallel Computing; Speech Technology; Green Building; PRINCE2; Network Virtualization; Digital Photography; Trade Secrets; Build Automation; Stack; Leadership Management; Mobile Banking; Data Models; Electrical Engineering; Adobe Photoshop; Microsoft Excel; Data Presentation; Vehicle Integration; Artificial Neural Networks; Apple Software; Speech Processing; Blender; Recommender Systems; 3D Rendering; Schematic Capture; SQLite; Time Management; Technical Communication; Music Technology; Electrical Design; Data Management; Fire Alarm; process flow diagram (PFD); MEP Design; Acceptance Testing; Lithium-ion Batteries; Project Support; On-air Hosting; Microservices; Church Revitalization; Terraform; Keras; Drag Racing; Modeling and Simulation; Kotlin; GraphQL; Webpack; Blockchain; English; Online Help; Machine Learning Algorithms; Microsoft Project Server; Mobile Robotics; UX Research; Stereotactic Radiosurgery; Load Testing; Security Operations; Financial Modeling; Express.js; React.js; Mechanical Systems; Mobile Photography; Content Delivery; Digital Marketing Channels; 3D Printing; Marketing Data Analysis; Marketing Graphic Design; Music Software; Applied Machine Learning; 3D Modeling Software; CAD/CAM; Progressive Web Applications (PWAs); IT Operations; Computer-Aided Engineering (CAE); Medical Massage; Camera Assistant; Natural Language Processing (NLP); Objection Handling (Sales); Analog Semiconductors; CAD Tools; Database Design; Redis; Back-End Web Development; Ionic Framework; ERP Software; Object Storage; Hydraulic Systems; Distributed Computing; Qualitative Research; Operational Planning; Python (Programming Language); Mathematics; Integration Architecture; UAT Coordination; End-to-end Testing; Nuclear Engineering; Cinema 4D; Business Performance Management; Java Frameworks; Gas Processing; Emulsions; Application Development; Live Broadcast; User-centered Design; Microsoft Operating Systems; Data Analysis; Test Methodologies; Wildlife Conservation; Geospatial Data; Business Management; Fraud Prevention; Neural Networks; Cross-cultural Teams; Child Therapy; User Acceptance Testing; Continuous Integration and Continuous Delivery (CI/CD); Therapeutic Communication; Follow-through Skills; Building Services Engineering; Audio-Visual Production; Universal Windows Platform (UWP); Business Analysis; Adobe Premiere Pro; Infrastructure Planning; Compositing; Green Infrastructure; CAD/CAM Software; Distributed Systems; Technical Consultation; Large Scale Systems; Commercial Photography; Nuke; Entertainment Management; Spatial Databases; 2D CAD Drawing; Business Operations; Gitlab; Flutter; Orienteering; Aerospace Engineering; Hardware; Elastic Stack (ELK); Convolutional Neural Networks (CNN); Cognitive Computing; Marine Propulsion; Distributed Ledger Technology (DLT); Microsoft Azure; Language Modeling; Generative Adversarial Networks (GANs); Procedural Programming; Video Post-Production; Ruby; Redevelopment; Wildlife Photography; Military Strategy; Solid Modeling; System Migration; Project Control; Business English; Document Imaging; Turnkey Projects; Long Term Relationship Building; 3D Animation; MATLAB; Performance Benchmarking; Drug Discovery; Geospatial Intelligence; Social Media Communications; Serverless Computing; Technical Demonstrations; Logic Models; Data Binding; Molecular Imaging; Wireless Engineering; Military Vehicles; Deep Reinforcement Learning; Jewelry Sales; Engineering Disciplines; Research Development; Digital Marketing Analytics; Material-UI; Microsoft Products; Mac; ASCET (Software Development); Live Streaming; Mobile Operating Systems; Housing Policy; JavaScript Frameworks; Query Languages; Time Efficiency; Artificial Intelligence (AI); Final Cut Pro; Optical Imaging; Military Leadership; Heroku; Platform as a Service (PAAS); Hard Surface Modeling; Construction Administration Services; Angular CLI; Intelligence Operations; Medical Device R&D; Database Modeling; Component Testing; Influencing Without Authority; Stereo Vision; Image Editing; IT Benchmarking; Model-view-viewmodel (MVVM); Android NDK; Style Guides; Propulsion Systems; Cocoa Touch; Durable Goods Sales; Building Information Modeling (BIM); Git; Plumbing Fixtures; Marketing Research; Pandas (Software); Core Data; Manage Complex Projects; Drone Videography; Drone Photography; Microsoft Azure Machine Learning; Android Development; AWS Lambda; Facebook API; Auto Racing; Control Networks; Underground Mining; Animal Models; Data Modeling; Music Theory; Front-End Development; Sports Analytics; After Effects; Probabilistic Models; MLflow; Objective-C; Team Management; Fluid Power; Automotive Engineering; Financial Forecasting; Technical Training; Full-Stack Development; Mobile Devices; NoSQL; Large-scale Projects; Node.js; Azure SQL; Bench Work; Buyer's Agent; Linear Programming; Pediatric Dentistry; RESTful WebServices; Self-confidence; Live Video Streaming; Managing Large Scale Projects; Confidence Building; Consumer Goods Sales; Quantitative Research; Mixed-Signal Integrated Circuits; Low Poly Modeling; Business Data Management; Broadcast Television; Computer Hardware; Object-Oriented Programming (OOP); Pick and Pack; Stochastic Modeling; Amazon Web Services (AWS); Wireless Technologies; Statistical Data Analysis; Pediatric Nursing; Sequelize.js; PyTorch; D3.js; Visualization; Digital Signal Processors; React Native; Postman API; Discrete Manufacturing; ZigBee; Style Development; Autodesk Inventor; Sustainable Design; Editing; Database Administration; Printed Circuit Board (PCB) Design; Financial Analysis; Sales Order Processing; Integrated Circuit Design; Autodesk Fusion 360; Object-oriented Languages; iOS; Microsoft Visual Studio Code; Social Housing; Pre-Sales Technical Consulting; Laser Physics; Water Resource Engineering; Camera Operation; IBM AIX; Long-term Care; Creative Entrepreneurship; Customer Data; Sales Messaging; Structured Programming; iPad; Video Editing; Netlify; 3D Graphics; NestJS; Computer Maintenance; Microsoft Teams; Rhino 3D; Avid Technology Products; Computer Science; Linear Models; Handle Multiple Projects; Intrapersonal Skills; Broadcast Engineering; Gas Detection; Web Languages; iOS Design; Game Engines; Mathematical Modeling; Fire Management; Redux.js; Reactive Programming; Database Systems; RDBMS; Image Processing; REST APIs; Sports Coverage; Amazon EC2; Text Mining; Web Testing; Theatrical Production; Data Science; Discovery Process; MongoDB; Polymerase Chain Reaction (PCR); Business Process Automation; Structural Engineering; ArtPro; TensorBoard; Live Events; MERN Stack; Client Confidentiality; Deep Neural Networks (DNN); Implementation Planning; Augmented Reality (AR); Presentation Design; Predictive Modeling; Data Representation; Automotive Design; Creative Development; Big Data; React Hooks; Task Driven; Statistics; Real Estate Development Projects; Jest; JavaScript eXtension (JSX); Engineering Documentation; Life Safety Code; Algorithm Development; Ant Design; Technical Editing; ASP.NET Web API; Model Building; Docker Products; Portfolio Optimization; Full Life Cycle Recruiting; Fire Investigation; Cross-functional Team Leadership; Broadcasting; Therapeutic Listening; Twitter Marketing; Apollo GraphQL; Test Automation Tools; DevOps; Twitter API; Responsive Web Design; Houdini; Loan Workouts; Propulsion; Mobile Applications; Parametric Modeling; Storage Systems; Scientific Presentation; Model Driven Development; Eagle PCB; Software Development; Project Planning; Cameras; Confidentiality; User Experience Design (UED); Lean Applications; Academic Research; Amazon S3; Azure DevOps Services; 3D Design; Productivity Software; Drools; Project Teams; Persona Creation; Task Analysis; Building Envelope; 3D Modeling; Phone Banking; Robot Framework; Facebook Marketing; Confidential Documents; Aeroacoustics; Healthcare Analytics; API Development; Computer-literate performer; iPhone; Construction Management; Oracle Fusion Applications (OFA); Test Procedures; Editing Software; PhoneGap; Autodesk Maya; Version Control Tools; Autodesk BIM 360"
+                    ],
+                    "options": [
+                        "Large-scale Data Analysis; Grunt (Software); Persuasive Presentations; CAPE; Stable Diffusion; Presentation Coaching; Materials Testing; IP Cameras; Project Engineering; Large Scale Deployments; LESS (Stylesheet Language); Workload Automation; Open-Source Development; Pro*C; Sponsorship Marketing; Dentrix; Conflict Management; Behavior-Driven Development (BDD); Technical Presentations; Presentation Development; Model Making; Algorithm Design; SIGINT; Web Application Development; Hypertext Transfer Protocol Secure (HTTPS); Virtual Teams; Computer-Aided Manufacturing (CAM); Predictive Analytics; Retrofit; Compensation Benchmarking; Unity; Generative AI; Hardware Development; Digital Circuit Design; Business Writing; Media Production; Project Tracking; Graphics Layout; Eaglesoft; Cloud Security; Migration Projects; Microsoft Applications; International Benchmarking; Military Training; Project Team Management; Salary Benchmarking; Pre-Sales Consulting; Handle Confidential Information; Battery Management Systems; Exploratory Data Analysis; SASS; Spanish Translation; Excel Models; School Social Work; Behavioral Sciences; Back-end Operations; Song Production; .NET Framework; Home Cleaning; Field Service Engineering; Technical Solution Development; Project Leadership; EMC Storage Products; Information Extraction; AngularJS; New Model Launch; Powertrain; RC; Complex Project Management; Law Enforcement Intelligence; 3D Scanning; iOS Development; Nuclear Physics; Visual Analytics; Evolutionary Algorithms; Visual Sciences; Technical Solution Design; Architecture; App Store; SOLIDWORKS; Engineering Design; SmartPlant; Office Cleaning; Swift (Programming Language); Petroleum Engineering; Television Directing; Primary Research; Broadcast Production; Xcode; Benchmarking; Trend Analysis; Professional Phone Skills; Manufacturing Software; Wildlife Management; Unsupervised Learning; English to Spanish; Venture Financing; Wheelchairs; Final Cut Studio; Landscape Photography; API Testing; Logic Pro; Film Scoring; Photogrammetry; Computer Vision; Microsoft 365; Plumbing Design; Online Content Creation; Yacht Racing; Business Strategy; Mailroom Operations; JavaScript; Database Testing; Black Box Testing; Professional Skills; Test Management; GitHub; Level Design; Flask; Parallel Algorithms; Professional Cleaning; Test Stand; Siemens NX; Go (Programming Language); LiveSite; Search Algorithms; Building Management Systems; Project Management Body of Knowledge (PMBOK); DaVinci Resolve; CAD Standards; Business Intelligence Tools; Unmanned Vehicles; Mobile Application Development; Cognitive Science; Remote User Support; Statistical Modeling; Vue.js; PS3; Adobe Creative Cloud; Manufacturing Automation; Project Plans; Building Business Relationships; Administrative Organization; Client Relationship Strengthening; Web Services API; Court Proceedings; Smart Serve Certified; Dart; Hardware Support; Data Engineering; Data Transformation; Engineering Analysis; Hands-on Training; Interbase; Automotive Electrical Systems; Java API; Underground Structures; OnBase; Planning & Scheduling; GPT-4; Large Group Facilitation; Steel Structures; Technical Seminars; iPhone Application Development; Economic Modeling; Aerial Photography; Promo Videos; Streaming Media; Database Development; Graphical Models; Project Initiation; Piping and Instrumentation Drawing (P&ID); BERT (Language Model); Electric Propulsion; Printed Circuit Board; Change Management; Adventure Racing; Optical Engineering; Deep Learning; Xamarin Products; TypeScript; ModelSim; SDKs; Django; CATIA; Risk Analytics; Research Projects; Group Presentations; Operations Research; Power System Studies; Content Design; Database Queries; Nitrous Oxide; Eagle PACE; Machine Learning; Money Management; Online Research; Sketching; JavaScript Libraries; Google API; Data Analytics; 3D Visualization; Radio Frequency (RF) Engineering; Pipeline Construction; Criminal Investigations; MIMO; LaTeX; Genetic Algorithms; EDA; Regression Models; Product Demonstration; ZBrush; Stormwater Management; Marine Engineering; User Scenarios; Reinforcement Learning; ASP.NET; SmartSketch; Large Scale Development; Pattern Recognition; Engineering Drawings; YouTube API; Cinematography; Mocha (JavaScript Framework); Relational Databases; Project Delivery; Embedded Engineers; Graphic Design Software; Team Leadership; Autonomous Maintenance; Transmedia Storytelling; Moldmaking; Autopilot; Firebase; TeamCity; Geomatics; Proteus; Cloud Infrastructure; Transfer Learning; Video Production; Foreign Languages; Urban Redevelopment; Command and Control; Hiring Practices; Compensation Strategies; Pre-production; Task Management; RC Detailing; Computer-Aided Design (CAD); PTC Creo; Bug Tracking; Autodesk Software; Timber Structures; Mean Stack; Google Cloud Platform (GCP); Analog-to-Digital Converters (ADC); Creative Content Creation; Financial Data Analysis; Apache Cordova; Vuex; University Teaching; Investing; IT Project Lifecycle; Target Market Selling; Disability Management; Integrated Development Environments; Supermarkets; Medical Gas; QuickBase; Deadline Oriented; Parallel Computing; Speech Technology; Green Building; PRINCE2; Network Virtualization; Digital Photography; Trade Secrets; Build Automation; Stack; Leadership Management; Mobile Banking; Data Models; Electrical Engineering; Adobe Photoshop; Microsoft Excel; Data Presentation; Vehicle Integration; Artificial Neural Networks; Apple Software; Speech Processing; Blender; Recommender Systems; 3D Rendering; Schematic Capture; SQLite; Time Management; Technical Communication; Music Technology; Electrical Design; Data Management; Fire Alarm; process flow diagram (PFD); MEP Design; Acceptance Testing; Lithium-ion Batteries; Project Support; On-air Hosting; Microservices; Church Revitalization; Terraform; Keras; Drag Racing; Modeling and Simulation; Kotlin; GraphQL; Webpack; Blockchain; English; Online Help; Machine Learning Algorithms; Microsoft Project Server; Mobile Robotics; UX Research; Stereotactic Radiosurgery; Load Testing; Security Operations; Financial Modeling; Express.js; React.js; Mechanical Systems; Mobile Photography; Content Delivery; Digital Marketing Channels; 3D Printing; Marketing Data Analysis; Marketing Graphic Design; Music Software; Applied Machine Learning; 3D Modeling Software; CAD/CAM; Progressive Web Applications (PWAs); IT Operations; Computer-Aided Engineering (CAE); Medical Massage; Camera Assistant; Natural Language Processing (NLP); Objection Handling (Sales); Analog Semiconductors; CAD Tools; Database Design; Redis; Back-End Web Development; Ionic Framework; ERP Software; Object Storage; Hydraulic Systems; Distributed Computing; Qualitative Research; Operational Planning; Python (Programming Language); Mathematics; Integration Architecture; UAT Coordination; End-to-end Testing; Nuclear Engineering; Cinema 4D; Business Performance Management; Java Frameworks; Gas Processing; Emulsions; Application Development; Live Broadcast; User-centered Design; Microsoft Operating Systems; Data Analysis; Test Methodologies; Wildlife Conservation; Geospatial Data; Business Management; Fraud Prevention; Neural Networks; Cross-cultural Teams; Child Therapy; User Acceptance Testing; Continuous Integration and Continuous Delivery (CI/CD); Therapeutic Communication; Follow-through Skills; Building Services Engineering; Audio-Visual Production; Universal Windows Platform (UWP); Business Analysis; Adobe Premiere Pro; Infrastructure Planning; Compositing; Green Infrastructure; CAD/CAM Software; Distributed Systems; Technical Consultation; Large Scale Systems; Commercial Photography; Nuke; Entertainment Management; Spatial Databases; 2D CAD Drawing; Business Operations; Gitlab; Flutter; Orienteering; Aerospace Engineering; Hardware; Elastic Stack (ELK); Convolutional Neural Networks (CNN); Cognitive Computing; Marine Propulsion; Distributed Ledger Technology (DLT); Microsoft Azure; Language Modeling; Generative Adversarial Networks (GANs); Procedural Programming; Video Post-Production; Ruby; Redevelopment; Wildlife Photography; Military Strategy; Solid Modeling; System Migration; Project Control; Business English; Document Imaging; Turnkey Projects; Long Term Relationship Building; 3D Animation; MATLAB; Performance Benchmarking; Drug Discovery; Geospatial Intelligence; Social Media Communications; Serverless Computing; Technical Demonstrations; Logic Models; Data Binding; Molecular Imaging; Wireless Engineering; Military Vehicles; Deep Reinforcement Learning; Jewelry Sales; Engineering Disciplines; Research Development; Digital Marketing Analytics; Material-UI; Microsoft Products; Mac; ASCET (Software Development); Live Streaming; Mobile Operating Systems; Housing Policy; JavaScript Frameworks; Query Languages; Time Efficiency; Artificial Intelligence (AI); Final Cut Pro; Optical Imaging; Military Leadership; Heroku; Platform as a Service (PAAS); Hard Surface Modeling; Construction Administration Services; Angular CLI; Intelligence Operations; Medical Device R&D; Database Modeling; Component Testing; Influencing Without Authority; Stereo Vision; Image Editing; IT Benchmarking; Model-view-viewmodel (MVVM); Android NDK; Style Guides; Propulsion Systems; Cocoa Touch; Durable Goods Sales; Building Information Modeling (BIM); Git; Plumbing Fixtures; Marketing Research; Pandas (Software); Core Data; Manage Complex Projects; Drone Videography; Drone Photography; Microsoft Azure Machine Learning; Android Development; AWS Lambda; Facebook API; Auto Racing; Control Networks; Underground Mining; Animal Models; Data Modeling; Music Theory; Front-End Development; Sports Analytics; After Effects; Probabilistic Models; MLflow; Objective-C; Team Management; Fluid Power; Automotive Engineering; Financial Forecasting; Technical Training; Full-Stack Development; Mobile Devices; NoSQL; Large-scale Projects; Node.js; Azure SQL; Bench Work; Buyer's Agent; Linear Programming; Pediatric Dentistry; RESTful WebServices; Self-confidence; Live Video Streaming; Managing Large Scale Projects; Confidence Building; Consumer Goods Sales; Quantitative Research; Mixed-Signal Integrated Circuits; Low Poly Modeling; Business Data Management; Broadcast Television; Computer Hardware; Object-Oriented Programming (OOP); Pick and Pack; Stochastic Modeling; Amazon Web Services (AWS); Wireless Technologies; Statistical Data Analysis; Pediatric Nursing; Sequelize.js; PyTorch; D3.js; Visualization; Digital Signal Processors; React Native; Postman API; Discrete Manufacturing; ZigBee; Style Development; Autodesk Inventor; Sustainable Design; Editing; Database Administration; Printed Circuit Board (PCB) Design; Financial Analysis; Sales Order Processing; Integrated Circuit Design; Autodesk Fusion 360; Object-oriented Languages; iOS; Microsoft Visual Studio Code; Social Housing; Pre-Sales Technical Consulting; Laser Physics; Water Resource Engineering; Camera Operation; IBM AIX; Long-term Care; Creative Entrepreneurship; Customer Data; Sales Messaging; Structured Programming; iPad; Video Editing; Netlify; 3D Graphics; NestJS; Computer Maintenance; Microsoft Teams; Rhino 3D; Avid Technology Products; Computer Science; Linear Models; Handle Multiple Projects; Intrapersonal Skills; Broadcast Engineering; Gas Detection; Web Languages; iOS Design; Game Engines; Mathematical Modeling; Fire Management; Redux.js; Reactive Programming; Database Systems; RDBMS; Image Processing; REST APIs; Sports Coverage; Amazon EC2; Text Mining; Web Testing; Theatrical Production; Data Science; Discovery Process; MongoDB; Polymerase Chain Reaction (PCR); Business Process Automation; Structural Engineering; ArtPro; TensorBoard; Live Events; MERN Stack; Client Confidentiality; Deep Neural Networks (DNN); Implementation Planning; Augmented Reality (AR); Presentation Design; Predictive Modeling; Data Representation; Automotive Design; Creative Development; Big Data; React Hooks; Task Driven; Statistics; Real Estate Development Projects; Jest; JavaScript eXtension (JSX); Engineering Documentation; Life Safety Code; Algorithm Development; Ant Design; Technical Editing; ASP.NET Web API; Model Building; Docker Products; Portfolio Optimization; Full Life Cycle Recruiting; Fire Investigation; Cross-functional Team Leadership; Broadcasting; Therapeutic Listening; Twitter Marketing; Apollo GraphQL; Test Automation Tools; DevOps; Twitter API; Responsive Web Design; Houdini; Loan Workouts; Propulsion; Mobile Applications; Parametric Modeling; Storage Systems; Scientific Presentation; Model Driven Development; Eagle PCB; Software Development; Project Planning; Cameras; Confidentiality; User Experience Design (UED); Lean Applications; Academic Research; Amazon S3; Azure DevOps Services; 3D Design; Productivity Software; Drools; Project Teams; Persona Creation; Task Analysis; Building Envelope; 3D Modeling; Phone Banking; Robot Framework; Facebook Marketing; Confidential Documents; Aeroacoustics; Healthcare Analytics; API Development; Computer-literate performer; iPhone; Construction Management; Oracle Fusion Applications (OFA); Test Procedures; Editing Software; PhoneGap; Autodesk Maya; Version Control Tools; Autodesk BIM 360"
+                    ]
+                },
+                "Job Titles": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ],
+                    "options": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ]
+                },
+                "Job Titles.1": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ],
+                    "options": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ]
+                },
+                "Job Titles.2": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ],
+                    "options": [
+                        "Lead Data Analyst; Software Engineer; Broadcast Engineer; Team Lead; Founder; Mechanical Engineering Specialist; Scout; Research Development Project Lead; Lead Hardware Engineer; Engineer; Electrical Engineering Specialist; Flight Engineer; Electrical Engineer; Media Production Crew; Business Strategy Specialist; Full Stack Engineer; Aircraft Maintenance; Lead Structural Engineer; Artificial Intelligence Engineer; Propulsion Engineer; Research And Development Specialist; Mechanical Engineer"
+                    ]
+                },
+                "Years of Experience": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "12+ years"
+                    ],
+                    "options": [
+                        "12+ years"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Learning.csv",
+            "type": ".csv",
+            "columns": {
+                "Content Title": {
+                    "dtype": "object",
+                    "unique_values": 28,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Cert Prep: Unity Certified Associate Game Developer UI and 2D Games",
+                        "Advanced Java: Hands-on with Streams, Lambda Expressions, Collections, Generics and More",
+                        "SketchUp Pro Lunchtime Lessons"
+                    ],
+                    "options": null
+                },
+                "Content Description": {
+                    "dtype": "object",
+                    "unique_values": 28,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Got a great idea for a 2D game? In this course, explore the fundamentals of user interfaces, animation, and level design in Unity as you learn how to create a 2D game of your own. The concepts covered in this course can also help you prepare to tackle the sections of the Unity Certified Associate: Game Developer exam that focus on user interfaces and 2D gaming. Instructor Alan Thorn covers the basics of creating a user interface, explaining how to make labels and buttons that allow users to interact with your scenes. He also goes into the fundamentals of creating sprite animations, configuring your 2D world, and working with 2D tiles.",
+                        "<p>Are you experienced in Java, but looking to get your skills to the next level? Join Maaike van Putten in this course and take your Java programming from good to great. Maaike covers a series of advanced Java topics, including streams and lambda expressions, collections and generics, and custom annotation. She also shows you how to deal with concurrency and work with the singleton design pattern. Join Maaike in this hands-on course, test what you\u2019ve learned in a series of challenges, and compare your work to Maaike\u2019s solutions.</p>\n<p>This course includes Code Challenges powered by CoderPad. Code Challenges are interactive coding exercises with real-time feedback, so you can get hands-on coding practice alongside the course content to advance your programming skills.</p>",
+                        "Want to work smarter in SketchUp Pro? In this weekly series, instructor Rebecca Terpstra shares tips designed to help users enhance their SketchUp skills in their spare time. Rebecca offers her expert take on how to create precision-based models for your architectural and interior designs with this powerful 3D modeling application. Discover how to use the Paste in Place function to quickly and accurately group objects that belong together, use scenes effectively, make a variety of shapes using the Circle tool, and much more."
+                    ],
+                    "options": null
+                },
+                "Content Type": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Course",
+                        "Course",
+                        "Course"
+                    ],
+                    "options": [
+                        "Course"
+                    ]
+                },
+                "Content Last Watched Date (if viewed)": {
+                    "dtype": "object",
+                    "unique_values": 28,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2023-08-26 18:19 UTC",
+                        "2024-04-07 07:26 UTC",
+                        "2023-10-18 20:39 UTC"
+                    ],
+                    "options": null
+                },
+                "Content Completed At (if completed)": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 28,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Content Saved": {
+                    "dtype": "bool",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        false,
+                        false,
+                        false
+                    ],
+                    "options": [
+                        false
+                    ]
+                },
+                "Notes taken on videos (if taken)": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 28,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Unnamed: 7": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 28,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Shares.csv",
+            "type": ".csv",
+            "columns": {
+                "Date": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2024-06-21 21:06:05",
+                        "2024-05-07 00:35:24",
+                        "2024-04-08 03:43:33"
+                    ],
+                    "options": [
+                        "2024-06-21 21:06:05",
+                        "2024-05-07 00:35:24",
+                        "2024-04-08 03:43:33",
+                        "2024-02-28 00:04:27",
+                        "2024-02-03 23:25:14",
+                        "2024-01-26 23:27:57",
+                        "2024-01-23 05:55:35",
+                        "2024-01-17 20:02:49",
+                        "2022-05-17 02:24:51"
+                    ]
+                },
+                "ShareLink": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7210025204629086208",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7193408040740532224",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7182946144971288576"
+                    ],
+                    "options": [
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7210025204629086208",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7193408040740532224",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7182946144971288576",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7168395491532111872",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7159688311681306624",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AgroupPost%3A12950739-7156789892734218241",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7155437889374281728",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7153476780425678848",
+                        "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6932153934178377728"
+                    ]
+                },
+                "ShareCommentary": {
+                    "dtype": "object",
+                    "unique_values": 9,
+                    "null_count": 0,
+                    "sample_values": [
+                        "I've been working on technology out of science fiction. \"\n\"\"\n\"In the past week I have built a fully automated AI browser that you can interact with through only voice. \"\n\"\"\n\"The goal? Tell your web browser what to do at a very high level.\"\n\" -> \"Navigate to Purdue Brightspace and download my assignments for this week\"\"\n\"-> \"Navigate to YC and fill out the application for my company\"\"\n\"\"\n\"The most powerful automation applications are grounded in Authentication and contextual data.  This where EVERY other AI tool falls short.\"\n\"\"\n\"We maintain your authentication, just like Chrome, so you can still access all your normal websites. NO OTHER AI SYSTEM CAN DO THIS. \"\n\"\"\n\"This has huge impacts for millions of people that cannot access the web easily today due to disabilities or knowledge gap.\"\n\"\"\n\"My grandma can barely book flights on her computer, but she definitely could talk to an AI that could :)\"\n\"\"\n\"Follow progress here --> https://x.com/JackBlair87 or on LinkedIn\"\n\"\"\n\"Our product is called Surfer\"\n\"\"\n\"If you think this is interesting, please repost so others can gain more exposure to what we are working on!\"\n\"\"\n\"If you are technical and want to help, send a message to me!\"\n\"\"\n\"\"\n\"#AI #purdue #homeworkautmation #VoiceControlledWeb #AIBrowser #WebAccessibility #TechInnovation #FutureOfBrowsing #AIAssistant #VoiceCommands #AccessibleTech #InclusiveTechnology #ElderlyTech #DisabilityTech #WebAutomation #AIAutomation #SmartBrowsing #VoiceActivated #AIforSeniors",
+                        "I'm thrilled to announce that I'll be spending the next 4 months at The Residency program at UC Berkeley! \ud83c\udf89 This is a truly incredible opportunity to immerse myself in the heart of the Bay Area's AI and technology innovation ecosystem.\"\n\"\"\n\"For the past 4+ years, I've been pouring my passion into coding side projects, launching startups, researching the frontiers of AI, and bringing together brilliant entrepreneurial minds. And now, I get to take that experience to the next level at the Residency.\"\n\"\"\n\"I'll be surrounded by some of the sharpest thinkers and most innovative doers in the world, all collaborating to push the boundaries of what's possible with technology. My goal is to develop groundbreaking AI ideas that can meaningfully improve people's lives.\"\n\"\"\n\"A huge thank you to Nick Linck and Hardeep Gambhir for making this opportunity a reality. I'm honored and eager to make the most of it.\"\n\"\"\n\"Stay tuned for updates on the amazing projects and collaborations that come out of this experience. \ud83d\udd25\"\n\"\"\n\"#Residency #UCBerkeley #AI #Innovation #Entrepreneurship",
+                        "What a thrilling weekend to be part of Purdue University's history! \ud83c\udf89\"\n\"\"\n\"For the first time ever, Purdue Founders joined forces with ML@Purdue to launch 'Catapult' - an unprecedented AI + Business hackathon! \ud83d\ude80\u2728\"\n\"\"\n\"STEM and Business minds fused to create viable startups in just 24 hours, forming a product and converting the idea into a compelling pitch deck. Over 50+ unique startup ideas were conceived, and 21 teams had the opportunity to pitch their innovative solutions. \ud83d\udca1\ud83c\udf10\"\n\"\"\n\"Our esteemed judges \u2013 Eugenio Culurciello, Raymond Yeh, and Tony Vernon, gave feedback that left us feeling enlightened. An enormous round of applause to the team who pulled together this event in record time - unparalleled teamwork in action.\"\n\"\"\n\"For a comprehensive overview of the event and to see the brilliant projects, visit https://lnkd.in/ex7R-T9Y. Again, a huge shoutout to the Catapult's backbone - Sameeha Afrulbasha, Saisravani Kuchibhotla, Leo Deng, Jinen Setpal, Connor Johnson, and Shantanu Roy and to all participants whose unwavering determination was inspirational. \ud83c\udf20 \ud83c\udf86\"\n\"\"\n\"This event has led to the Purdue Founders ecosystem doubling in size in just half a semester, revealing how we can grow and innovate collectively. These milestones, like Catapult, fuel our enthusiasm and prove that the sky's the limit. But this is just the beginning! \ud83d\ude80\"\n\"\"\n\"On a more personal note, it was incredible to see the logistics and challenges behind planning an event of this scale. Even more energizing events are queued up for our vibrant Purdue community. Stay tuned as we continue to Catapult our way to success! \ud83c\udf89\"\n\"#Purdue #PurdueEntrepreneurship #Startups #Hackathon #PurdueCatapult #PurdueFounders #StartupPurdue #MLPurdue #MachineLearning #AI"
+                    ],
+                    "options": [
+                        "I've been working on technology out of science fiction. \"\n\"\"\n\"In the past week I have built a fully automated AI browser that you can interact with through only voice. \"\n\"\"\n\"The goal? Tell your web browser what to do at a very high level.\"\n\" -> \"Navigate to Purdue Brightspace and download my assignments for this week\"\"\n\"-> \"Navigate to YC and fill out the application for my company\"\"\n\"\"\n\"The most powerful automation applications are grounded in Authentication and contextual data.  This where EVERY other AI tool falls short.\"\n\"\"\n\"We maintain your authentication, just like Chrome, so you can still access all your normal websites. NO OTHER AI SYSTEM CAN DO THIS. \"\n\"\"\n\"This has huge impacts for millions of people that cannot access the web easily today due to disabilities or knowledge gap.\"\n\"\"\n\"My grandma can barely book flights on her computer, but she definitely could talk to an AI that could :)\"\n\"\"\n\"Follow progress here --> https://x.com/JackBlair87 or on LinkedIn\"\n\"\"\n\"Our product is called Surfer\"\n\"\"\n\"If you think this is interesting, please repost so others can gain more exposure to what we are working on!\"\n\"\"\n\"If you are technical and want to help, send a message to me!\"\n\"\"\n\"\"\n\"#AI #purdue #homeworkautmation #VoiceControlledWeb #AIBrowser #WebAccessibility #TechInnovation #FutureOfBrowsing #AIAssistant #VoiceCommands #AccessibleTech #InclusiveTechnology #ElderlyTech #DisabilityTech #WebAutomation #AIAutomation #SmartBrowsing #VoiceActivated #AIforSeniors",
+                        "I'm thrilled to announce that I'll be spending the next 4 months at The Residency program at UC Berkeley! \ud83c\udf89 This is a truly incredible opportunity to immerse myself in the heart of the Bay Area's AI and technology innovation ecosystem.\"\n\"\"\n\"For the past 4+ years, I've been pouring my passion into coding side projects, launching startups, researching the frontiers of AI, and bringing together brilliant entrepreneurial minds. And now, I get to take that experience to the next level at the Residency.\"\n\"\"\n\"I'll be surrounded by some of the sharpest thinkers and most innovative doers in the world, all collaborating to push the boundaries of what's possible with technology. My goal is to develop groundbreaking AI ideas that can meaningfully improve people's lives.\"\n\"\"\n\"A huge thank you to Nick Linck and Hardeep Gambhir for making this opportunity a reality. I'm honored and eager to make the most of it.\"\n\"\"\n\"Stay tuned for updates on the amazing projects and collaborations that come out of this experience. \ud83d\udd25\"\n\"\"\n\"#Residency #UCBerkeley #AI #Innovation #Entrepreneurship",
+                        "What a thrilling weekend to be part of Purdue University's history! \ud83c\udf89\"\n\"\"\n\"For the first time ever, Purdue Founders joined forces with ML@Purdue to launch 'Catapult' - an unprecedented AI + Business hackathon! \ud83d\ude80\u2728\"\n\"\"\n\"STEM and Business minds fused to create viable startups in just 24 hours, forming a product and converting the idea into a compelling pitch deck. Over 50+ unique startup ideas were conceived, and 21 teams had the opportunity to pitch their innovative solutions. \ud83d\udca1\ud83c\udf10\"\n\"\"\n\"Our esteemed judges \u2013 Eugenio Culurciello, Raymond Yeh, and Tony Vernon, gave feedback that left us feeling enlightened. An enormous round of applause to the team who pulled together this event in record time - unparalleled teamwork in action.\"\n\"\"\n\"For a comprehensive overview of the event and to see the brilliant projects, visit https://lnkd.in/ex7R-T9Y. Again, a huge shoutout to the Catapult's backbone - Sameeha Afrulbasha, Saisravani Kuchibhotla, Leo Deng, Jinen Setpal, Connor Johnson, and Shantanu Roy and to all participants whose unwavering determination was inspirational. \ud83c\udf20 \ud83c\udf86\"\n\"\"\n\"This event has led to the Purdue Founders ecosystem doubling in size in just half a semester, revealing how we can grow and innovate collectively. These milestones, like Catapult, fuel our enthusiasm and prove that the sky's the limit. But this is just the beginning! \ud83d\ude80\"\n\"\"\n\"On a more personal note, it was incredible to see the logistics and challenges behind planning an event of this scale. Even more energizing events are queued up for our vibrant Purdue community. Stay tuned as we continue to Catapult our way to success! \ud83c\udf89\"\n\"#Purdue #PurdueEntrepreneurship #Startups #Hackathon #PurdueCatapult #PurdueFounders #StartupPurdue #MLPurdue #MachineLearning #AI",
+                        "Announcing Purdue Catapult Hacks 2024 \ud83d\ude80\ud83c\udf00\"\n\"Apply here by March 18th!! (http://catapulthacks.com/)\"\n\"\"\n\"Purdue Founders and ML@Purdue are teaming up and so proud to announce Catapult - Purdue University's first ever AI + Entrepreneurship Hackathon. \ud83e\udde0\ud83d\udca1\"\n\"\"\n\"As a Purdue student working and studying in the AI industry, I've been interested in not only learning about the theoretics of AI/ML in my classes, but also building with the leading technologies available to us today. I've always believed in learning by doing, \ud83d\udee0\ufe0f and believe that Purdue University needs more opportunities for students to build and brand generative AI based projects. This is why we are hosting Purdue\u2019s first ever GenAI + Business Hackathon. \ud83c\udfd7\ufe0f\ud83d\udcda\"\n\"\"\n\"The Hackathon (called Catapult Hacks) is a university-wide two day in-person event (3/30-3/31) for students across Purdue\u2019s ecosystem to build, learn, and create AI based applications. \ud83d\udcc6 In a unique twist, our hackathon is both a coding challenge and business challenge. Not only must teams utilize the newest AI tech, but they must brand and pitch each idea, being judged on a combination of both by VCs + Purdue Alumni. \ud83d\udcbc\ud83d\udcbb\"\n\"\"\n\"No AI or hackathon experience is required! Teams can be students from any school, but must attend in-person. Join Purdue\u2019s top builders for over $2,000 in prizes, even sponsored by Purdue's very own purdue Institute for Physical Artificial Intelligence. \ud83d\udcb0\"\n\"\"\n\"The team- Sameeha Afrulbasha, Connor Johnson, Shantanu Roy, Saisravani Kuchibhotla and I have poured hundreds of hours enabling this opportunity for hundreds of Purdue students. \ud83d\ude4f\ud83c\udffd\"\n\"\"\n\"Now that you have this incredible opportunity, make the most of it! If you are a student, apply here: http://catapulthacks.com/ by March 18th, 2024 to get involved. We are still looking for sponsors and judges!! If you want to help, you can find out more information here: https://lnkd.in/g_wFb3kB\"\n\"\"\n\"Message me personally if you have any questions! \ud83d\udc4b Also reach out to Samsheeha, Connor, or Shantanu. \"\n\"\"\n\"Thank you to our sponsors and organizers for helping to make this happen! \ud83c\udf8a\ud83d\udc4f\"\n\"ML@Purdue, Purdue Founders, Purdue University, Rithwik Erabelly, Pradyun Kamaraju, HawkenIO",
+                        "Thrilled to announce the kickoff of Purdue's inaugural Catapult - the first-ever Start-up and AI Hackathon at Purdue! \ud83d\ude80 Dive into the heart of Purdue's AI + ML community with this groundbreaking event. https://lnkd.in/g3tr7U3P\"\n\"\"\n\"If you are at all interesting in supporting entrepreneurship or AI research at Purdue, please consider becoming a sponsor. https://lnkd.in/eMm6UC4h \"\n\"\"\n\"We are looking for designers and marketers!! If you want to help us in any way, please reach out to me, Connor Johnson or Sameeha Afrulbasha! \"\n\"\"\n\"Applications coming soon!! Mark your calendars for March 30-31st!",
+                        "AI Agents have a problem \u2013 they lack real-time access to critical context that could enhance their problem-solving capabilities.\"\n\"\"\n\"We've tried, RAG, embeddings, etc, but sometimes the best tool is yourself.\"\n\"I built a Python API that enables your AI agents to contact a human when they get stuck, with just four lines of code and a simple mobile app.\"\n\"\"\n\"Try it out:\u00a0https://lnkd.in/gW84Rqam \"\n\"\"\n\"As a student founder, I am always looking for feedback! Send me a DM!",
+                        "\ud83c\udfc6  Exciting News! \ud83c\udfc6 \"\n\"Thrilled to share my triumph at #BoilermakeXI with my very first solo hackathon project - AutoScholar! \ud83c\udf89 Imagine having your own personal research assistant right in your pocket, tirelessly sifting through 2.4 million research papers to find the gems tailored to your interests. https://lnkd.in/dtKMFqGB \"\n\"\"\n\"Keep up to date on research! AutoScholar adapts to your preferences and even sends you daily notifications for new publications in your field. \ud83c\udf10 A big shout out to #Boilerbookings, Pradyun Kamaraju, and Rithwik Erabelly for awarding it as the \"Best Hack for Purdue Students\" \u2013 an honor I truly cherish. Check out their amazing work here https://lnkd.in/dvrPR4WX\"\n\"\"\n\"Special thanks to Rohan Purandare and the entire BoilerMake team for making this event so inspiring! \ud83d\ude4c It was great to see the entire AI + hacking community come together for amazing projects. \"\n\"\"\n\"Building AutoScholar at lightning speed wouldn't have been possible without the magic of Spooky AI's HumanAPI \u2728 This iOS app and messaging platform empower me to create context-rich notifications and seamlessly integrate AI data in just four lines of code. I have been building it over the past few months and will officially launch very soon! https://lnkd.in/dETC4aFK\"\n\"\"\n\"Calling all AI enthusiasts, cognitive architecture buffs, and Purdue entrepreneurs! Let's connect and explore future collaborations. \ud83e\udd1d Passionate about pushing the boundaries of technology? Join me in shaping the future where technology works for you! Send me a DM or come to Purdue Founders every Saturday!!\"\n\"\"\n\"#Boilermake #Purdue #AI #CognitiveArchitecture #AutoScholar #HumanAPI #Research #Innovation #StudentStartup #PurdueFounders #PurdueHacking \ud83d\ude80",
+                        "\ud83d\ude80 Exciting News! \ud83d\ude80 Thrilled to share that we won the Fall 2023 award program at Purdue's John Martinson Entrepreneurial Center (JMEC) with SVBIG! \ud83c\udfc6\ud83c\udf1f\"\n\"\"\n\"Teaming up with the brilliant minds of Thomas Stahura and Sahil Lalani, we've crafted an AI assistant architecture that feels like futuristic magic! \ud83e\udd16\u2728 Picture this: an assistant that keenly observes, gathers data about you, and then proactively takes actions on your behalf. It's like having a tech-savvy sidekick, always ready for life's twists and turns. \ud83d\udd04\ud83c\udf10\"\n\"\"\n\"A huge thank you to Purdue Founders \u2013 the core force of student entrepreneurship at Purdue University! Special appreciation to all the incredible student entrepreneurs who played a pivotal role in our success. Your collaboration and feedback at Purdue Founders have been instrumental. \ud83d\ude80\ud83c\udf1f\"\n\"A heartfelt thank you to Rachael Vonderhaar! \ud83c\udf1f As a Student Research Assistant at JMEC, her support was invaluable throughout the process.\"\n\"\"\n\"To everyone who believed in our vision and contributed to this journey \u2013 THANK YOU! \ud83d\ude4c Exciting times ahead as we continue to innovate and shape the future of AI Agent systems. Stay tuned for more updates! \ud83d\ude80\ud83d\udd17 #JMEC #SVBIG #InnovationJourney #AIRevolution #PurdueEntrepreneurship #PurdueFounders #StudentEntrepreneurs",
+                        "I am so proud to have had the opportunity to complete my Senior Research Project in the Robotics and Automation Laboratory at TJHSST with Onur Gunduz, Nicholas Rising, and Nicholas Bonanno. \"\n\"\"\n\"Over the past year, we have created a device that mounts on a Crew shell and collects never-before-seen data to help coaches select the best line-ups for their boats.\"\n\"\"\n\"https://lnkd.in/gsajpTQa \"\n\"\"\n\"Crew has been a huge part of my life over the past four years, and it is an honor to give back. Please watch the video below and feel free to send advice and questions. We'll follow up with a formal research paper in a few days.\"\n\"\"\n\"Special thanks to our Automation and Robotics Lab Director, Mrs. Kristen Kucko, for the year-long support and mentorship she has given to us."
+                    ]
+                },
+                "SharedUrl": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 7,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN,
+                        "http://catapulthacks.com/",
+                        "https://devpost.com/software/passive-pundit"
+                    ]
+                },
+                "MediaUrl": {
+                    "dtype": "float64",
+                    "unique_values": 0,
+                    "null_count": 9,
+                    "sample_values": [
+                        NaN,
+                        NaN,
+                        NaN
+                    ],
+                    "options": [
+                        NaN
+                    ]
+                },
+                "Visibility": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "MEMBER_NETWORK",
+                        "MEMBER_NETWORK",
+                        "MEMBER_NETWORK"
+                    ],
+                    "options": [
+                        "MEMBER_NETWORK"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Honors.csv",
+            "type": ".csv",
+            "columns": {
+                "Title": {
+                    "dtype": "object",
+                    "unique_values": 6,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Eagle Scout",
+                        "HackTJ - Social Impact Award (1st Place)",
+                        "Athletic Honor Roll (TJHSST Mens Crew)"
+                    ],
+                    "options": [
+                        "Eagle Scout",
+                        "HackTJ - Social Impact Award (1st Place)",
+                        "Athletic Honor Roll (TJHSST Mens Crew)",
+                        "HackNEHS - Best Overall (2nd Place)",
+                        "National Honor Society (NHS)",
+                        "Purdue JMEC Fall 2023 Entrepreneurial Award with SVBIG"
+                    ]
+                },
+                "Description": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 1,
+                    "sample_values": [
+                        "I joined cub scouts in 2009 and have loved scouting ever since. At age fifteen, I completed my Eagle Scout Project at Sandy Run Regional Park, where I row for crew. I felt that it was only fitting to give back to a place that has given me so much enjoyment over the past three years.  Throughout my scouting career I have held many leadership positions including Patrol Leader, Assistant Senior Patrol Leader, Historian, and Webmaster. I like to teach other scouts skills like orienteering, packing, knot tying.",
+                        "I worked with two fellow students to develop a CV software that pairs cars parked in contactless delivery parking spots with their corresponding order. (Curbside Classifier)",
+                        "Rowed on my crew team's 1V boat Junior and Senior year."
+                    ],
+                    "options": [
+                        "I joined cub scouts in 2009 and have loved scouting ever since. At age fifteen, I completed my Eagle Scout Project at Sandy Run Regional Park, where I row for crew. I felt that it was only fitting to give back to a place that has given me so much enjoyment over the past three years.  Throughout my scouting career I have held many leadership positions including Patrol Leader, Assistant Senior Patrol Leader, Historian, and Webmaster. I like to teach other scouts skills like orienteering, packing, knot tying.",
+                        "I worked with two fellow students to develop a CV software that pairs cars parked in contactless delivery parking spots with their corresponding order. (Curbside Classifier)",
+                        "Rowed on my crew team's 1V boat Junior and Senior year.",
+                        "My team and I developed a software capable of translating spoken text into 3D objects using the Fusion360 API and a STT library. (SpeechToCAD)",
+                        NaN,
+                        "Teaming up with the brilliant minds of Thomas Stahura and Sahil Lalani, we've crafted an AI assistant architecture that feels like futuristic magic! \ud83e\udd16\u2728 Picture this: an assistant that keenly observes, gathers data about you, and then proactively takes actions on your behalf. It's like having a tech-savvy sidekick, always ready for life's twists and turns. \ud83d\udd04\ud83c\udf10"
+                    ]
+                },
+                "Issued On": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Jan 2019",
+                        "Apr 2021",
+                        "Jun 2021"
+                    ],
+                    "options": [
+                        "Jan 2019",
+                        "Apr 2021",
+                        "Jun 2021",
+                        "Mar 2021",
+                        "Dec 2023"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Ads Clicked.csv",
+            "type": ".csv",
+            "columns": {
+                "Ad clicked Date": {
+                    "dtype": "object",
+                    "unique_values": 101,
+                    "null_count": 0,
+                    "sample_values": [
+                        "2023/10/03 17:32:58 UTC",
+                        "2023/04/08 16:30:49 UTC",
+                        "2023/10/18 20:38:27 UTC"
+                    ],
+                    "options": null
+                },
+                "Ad Title/Id": {
+                    "dtype": "int64",
+                    "unique_values": 58,
+                    "null_count": 0,
+                    "sample_values": [
+                        310311856,
+                        202146913,
+                        236955953
+                    ],
+                    "options": null
+                }
+            }
+        },
+        {
+            "name": "Languages.csv",
+            "type": ".csv",
+            "columns": {
+                "Name": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "English",
+                        "Spanish"
+                    ],
+                    "options": [
+                        "English",
+                        "Spanish"
+                    ]
+                },
+                "Proficiency": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Native or bilingual proficiency",
+                        "Limited working proficiency"
+                    ],
+                    "options": [
+                        "Native or bilingual proficiency",
+                        "Limited working proficiency"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Email Addresses.csv",
+            "type": ".csv",
+            "columns": {
+                "Email Address": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "jackblairing@gmail.com"
+                    ],
+                    "options": [
+                        "jackblairing@gmail.com"
+                    ]
+                },
+                "Confirmed": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Yes"
+                    ],
+                    "options": [
+                        "Yes"
+                    ]
+                },
+                "Primary": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Yes"
+                    ],
+                    "options": [
+                        "Yes"
+                    ]
+                },
+                "Updated On": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 0,
+                    "sample_values": [
+                        "7/26/21, 7:23 PM"
+                    ],
+                    "options": [
+                        "7/26/21, 7:23 PM"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Projects.csv",
+            "type": ".csv",
+            "columns": {
+                "Title": {
+                    "dtype": "object",
+                    "unique_values": 6,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Autonomous Photography Drone",
+                        "SmartSkeg",
+                        "Autonomous Model RC Cybertruck"
+                    ],
+                    "options": [
+                        "Autonomous Photography Drone",
+                        "SmartSkeg",
+                        "Autonomous Model RC Cybertruck",
+                        "AutoScholar - AI Summarized Research Papers Daily!",
+                        "Human API - Let Your Al Agents Ask You Questions in Realtime.",
+                        "Depletables - Recurring Task App"
+                    ]
+                },
+                "Description": {
+                    "dtype": "object",
+                    "unique_values": 6,
+                    "null_count": 0,
+                    "sample_values": [
+                        "This is my fully autonomous drone build, with over 30 minutes of flight time and a gimbaled GoPro! I have spent almost a year on this project and have completed over 4 autonomous flights.",
+                        "The SmartSkeg system is a set of wireless devices placed on a Crew shell to gain insights into how the rowers are performing, as well as actively steer the boat to avoid obstacles. Using our technology, coaches can monitor statistics in real time and see how different combinations of rowers affect the speed of the boat.   Created by Jack Blair, Nicholas Bonanno, Onur Gunduz, and Nicholas Rising.",
+                        "Over the course of coronavirus break, I designed a fully autonomous RC Cybertruck that can go faster than 30 MPH! I put in more than 100+ hours and am very proud of the final design. Using the Pixhawk flight controller I also was able to complete autonomous waypoint missions."
+                    ],
+                    "options": [
+                        "This is my fully autonomous drone build, with over 30 minutes of flight time and a gimbaled GoPro! I have spent almost a year on this project and have completed over 4 autonomous flights.",
+                        "The SmartSkeg system is a set of wireless devices placed on a Crew shell to gain insights into how the rowers are performing, as well as actively steer the boat to avoid obstacles. Using our technology, coaches can monitor statistics in real time and see how different combinations of rowers affect the speed of the boat.   Created by Jack Blair, Nicholas Bonanno, Onur Gunduz, and Nicholas Rising.",
+                        "Over the course of coronavirus break, I designed a fully autonomous RC Cybertruck that can go faster than 30 MPH! I put in more than 100+ hours and am very proud of the final design. Using the Pixhawk flight controller I also was able to complete autonomous waypoint missions.",
+                        "I have been wanting to learn about cognitive architectures in AI systems for a long time. But, as it turns out, delving into such a complex research topic on a whim at 3 AM in the morning is not sustainable. To combat this, I've been trying to read summaries of newer research papers every day.   That's why I build AutoScholar- A simple AI Agent to search the internet every day for research papers relevant to my area of interest (in this case, cognitive architectures!). The agent beautifully summarizes each paper it finds- with an emphasis on impact of the paper- and intelligently sends papers to me it thinks I would find interesting.   As an AI Agent Engineer, I have a lot of experience building with generative AI tools such as GPT-4 and LangChain. To build this particular workflow, I used an automated scheduling tool called n8n to start a LangChain thread that has access to an arXiv tool, allowing it to search through research papers. That system layered with additional summarization prompts and repetition checking allowed me to send relevant papers every few hours (or however often I want). To display the results of the agent to the user, I used Spooky AI's Human API app, which allowed me to send the notifications.",
+                        "As AI assistants become more sophisticated, autonomous agents are increasingly tackling complex tasks without human initiation. While this enhances their ability to take meaningful actions on our behalf, it raises concerns about real-time supervision and execution accuracy.   Spooky's HumanAPI to solve the problem: How can AI cloud agents ask us questions when don't have enough information or are not sure what steps to take next?  Get Started Here: https://app.archbee.com/public/PREVIEW-kBSfW0x0YaVY-EXPqYbHY/PREVIEW-h0nsaRf45zhMhJ0oHrBdJ  If you are interested in this type of work, please contact me here: http://jack-blair.com",
+                        "Depletables are my way of modeling recurring tasks that you must be on top of to be spontaneous. A Depletable is any cyclical task that has a state of \u201cdepletion.\u201d Instead of reactively responding to tasks like home cleaning, shopping, connecting with family, a Depletable notifies you when to accomplish all of these tasks.  To track Depletables, I developed an iPhone app and launched it on the App Store. Instead of saving all my tasks for the dreaded Sunday cleaning, I get an iPhone notification to complete them throughout the week. As a student, this is a great way to balance busy work days and allows me to spend time on the weekend doing what I truly want to do- being spontaneous.  I made a Depletable to clean my bathroom, change my contacts, and clean the fridge. I also made Depletables to text my family members each week and post consistently on social media. After using this app for the past few months, I can genuinely say it has changed the way I live.  By combining Depletables for recurring tasks, a calendar for date-based tasks, a to-do list for random tasks, and time-chunking my continuous tasks, I have built a system that allows me to operate ahead of my deadlines and accomplish more than I thought possible."
+                    ]
+                },
+                "Url": {
+                    "dtype": "object",
+                    "unique_values": 1,
+                    "null_count": 5,
+                    "sample_values": [
+                        NaN,
+                        "https://www.youtube.com/watch?v=AVWecQTfoHo",
+                        NaN
+                    ],
+                    "options": [
+                        NaN,
+                        "https://www.youtube.com/watch?v=AVWecQTfoHo"
+                    ]
+                },
+                "Started On": {
+                    "dtype": "object",
+                    "unique_values": 5,
+                    "null_count": 0,
+                    "sample_values": [
+                        "Sep 2020",
+                        "Aug 2021",
+                        "Mar 2020"
+                    ],
+                    "options": [
+                        "Sep 2020",
+                        "Aug 2021",
+                        "Mar 2020",
+                        "Jan 2024",
+                        "Aug 2023"
+                    ]
+                },
+                "Finished On": {
+                    "dtype": "object",
+                    "unique_values": 2,
+                    "null_count": 4,
+                    "sample_values": [
+                        "Apr 2021",
+                        NaN,
+                        "Sep 2020"
+                    ],
+                    "options": [
+                        "Apr 2021",
+                        NaN,
+                        "Sep 2020"
+                    ]
+                }
+            }
+        }
+    ],
+    "folders": [
+        {
+            "name": "Verifications",
+            "contents": {
+                "files": [
+                    {
+                        "name": "Verifications.csv",
+                        "type": ".csv",
+                        "columns": {
+                            "First name": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Middle name": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Last name": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Verification type": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "Education Verification"
+                                ],
+                                "options": [
+                                    "Education Verification"
+                                ]
+                            },
+                            "Organization name": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "Purdue University College of Engineering"
+                                ],
+                                "options": [
+                                    "Purdue University College of Engineering"
+                                ]
+                            },
+                            "Email address": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "blair68@purdue.edu"
+                                ],
+                                "options": [
+                                    "blair68@purdue.edu"
+                                ]
+                            },
+                            "Country": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "State": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "City": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Year of birth": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Issuing authority": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Document type": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Verification service provider": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Verified date": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "2023-11-08"
+                                ],
+                                "options": [
+                                    "2023-11-08"
+                                ]
+                            },
+                            "Expiry date": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "2024-11-07"
+                                ],
+                                "options": [
+                                    "2024-11-07"
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "folders": []
+            }
+        },
+        {
+            "name": "Jobs",
+            "contents": {
+                "files": [
+                    {
+                        "name": "Job Seeker Preferences.csv",
+                        "type": ".csv",
+                        "columns": {
+                            "Locations": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "San Francisco Bay Area"
+                                ],
+                                "options": [
+                                    "San Francisco Bay Area"
+                                ]
+                            },
+                            "Industries": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Company Employee Count": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Preferred Job Types": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "Full-time | Contract | Part-time | Internship | Remote"
+                                ],
+                                "options": [
+                                    "Full-time | Contract | Part-time | Internship | Remote"
+                                ]
+                            },
+                            "Job Titles": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "System Engineer | Mechanical Engineer | Software Engineer | Project Engineer"
+                                ],
+                                "options": [
+                                    "System Engineer | Mechanical Engineer | Software Engineer | Project Engineer"
+                                ]
+                            },
+                            "Open To Recruiters": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "Yes"
+                                ],
+                                "options": [
+                                    "Yes"
+                                ]
+                            },
+                            "Dream Companies": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Profile Shared With Job Poster": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "Yes"
+                                ],
+                                "options": [
+                                    "Yes"
+                                ]
+                            },
+                            "Job Title For Searching Fast Growing Companies": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Introduction Statement": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Phone Number": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Job Seeker Activity Level": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Preferred Start Time Range": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Commute Preference Starting Address": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Commute Preference Starting Time": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Mode Of Transportation": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Maximum Commute Duration": {
+                                "dtype": "float64",
+                                "unique_values": 0,
+                                "null_count": 1,
+                                "sample_values": [
+                                    NaN
+                                ],
+                                "options": [
+                                    NaN
+                                ]
+                            },
+                            "Open Candidate Visibility": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "RECRUITERS"
+                                ],
+                                "options": [
+                                    "RECRUITERS"
+                                ]
+                            },
+                            "Job Seeking Urgency Level": {
+                                "dtype": "object",
+                                "unique_values": 1,
+                                "null_count": 0,
+                                "sample_values": [
+                                    "ACTIVELY_SEEKING"
+                                ],
+                                "options": [
+                                    "ACTIVELY_SEEKING"
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "folders": []
+            }
+        }
+    ]
+}
