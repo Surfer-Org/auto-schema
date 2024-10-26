@@ -10,7 +10,7 @@ def export_to_json(folder_path):
         json.dump(files_structure, json_file, indent=4)
 
 def main():
-    folder_path = r"C:\Users\sahil\Downloads\b0249a9e-8f03-11ef-8e31-f3afe78606be.tar.gz"
+    folder_path = "/Users/jackblair/Jack Blair/Straight Outta Harbour/Repos/ConversionScript/linkedInData/LinkedIn Data Export Aug 14 2024"
     export_to_json(folder_path)
 
 if __name__ == "__main__":

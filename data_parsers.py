@@ -13,6 +13,7 @@ def parse_csv(file_obj):
     columns_info = {header: {
         "data_type": None,
         "example_values": [],
+        "nullable": False,  # Add nullable field
     } for header in headers}
 
     row_count = 0
@@ -20,6 +21,7 @@ def parse_csv(file_obj):
         row_count += 1
         for header, value in zip(headers, row):
             if value.strip() == '':
+                columns_info[header]["nullable"] = True  # Mark as nullable if empty
                 continue
             
             data_type = infer_data_type(value)
@@ -40,7 +42,6 @@ def parse_csv(file_obj):
 
     return {
         'type': 'csv',
-        'total_rows': row_count,
         'columns': columns_info,
     }
 
