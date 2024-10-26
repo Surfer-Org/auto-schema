@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 schema_*.json
+generated_mdx_*.mdx
 
 # C extensions
 *.so
