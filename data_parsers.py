@@ -12,8 +12,8 @@ def parse_csv(file_obj):
 
     columns_info = {header: {
         "data_type": None,
-        "example_values": [],
-        "nullable": False,  # Add nullable field
+        "example_value": None,  # Changed from "example_values" to "example_value"
+        "nullable": False,
     } for header in headers}
 
     row_count = 0
@@ -21,7 +21,7 @@ def parse_csv(file_obj):
         row_count += 1
         for header, value in zip(headers, row):
             if value.strip() == '':
-                columns_info[header]["nullable"] = True  # Mark as nullable if empty
+                columns_info[header]["nullable"] = True
                 continue
             
             data_type = infer_data_type(value)
@@ -30,15 +30,8 @@ def parse_csv(file_obj):
             elif columns_info[header]["data_type"] != data_type:
                 columns_info[header]["data_type"] = "mixed"
             
-            if len(columns_info[header]["example_values"]) < 3:
-                columns_info[header]["example_values"].append(value)
-
-    # Post-processing
-    for header, info in columns_info.items():
-        if len(info["example_values"]) > 10:
-            info["example_values"] = None
-        else:
-            info["example_values"] = list(info["example_values"])
+            if columns_info[header]["example_value"] is None:
+                columns_info[header]["example_value"] = value  # Store only the first non-empty value
 
     return {
         'type': 'csv',
@@ -46,6 +39,10 @@ def parse_csv(file_obj):
     }
 
 def parse_js(file_path):
+    # Ignore .DS_Store files
+    if file_path.endswith('.DS_Store'):
+        return None
+
     if 'data' not in file_path:
         return None
     with open(file_path, 'r', encoding='utf-8') as file:
