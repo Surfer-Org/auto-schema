@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+z_schema_*.json
+z_generated_mdx_*.mdx
+
+li.py
+linkedin_interests.png
+
 # C extensions
 *.so
 
