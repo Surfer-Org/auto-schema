@@ -1,6 +1,4 @@
 import json
-import tkinter as tk
-from tkinter import filedialog
 from datetime import datetime
 from file_processor import get_files_structure
 from schema_to_mdx import generate_mdx
@@ -15,7 +13,7 @@ def export_to_json(file_path):
 
 def select_file():
     # Put filepath here manually
-    file_path = r"C:\Users\sahil\Downloads\1cce3ed5-b72f-4ff5-8de0-4f01aef74b2e_Export-9b9f419d-0adb-48b2-af73-4b76f3dc9388\Export-9b9f419d-0adb-48b2-af73-4b76f3dc9388-Part-1.zip"
+    file_path = r"insert filepath here"
 
     json_filename, files_structure = export_to_json(file_path)
     print(f"JSON schema exported successfully to: {json_filename}")

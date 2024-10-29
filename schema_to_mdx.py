@@ -38,6 +38,11 @@ def schema_to_mdx(json_data, indent=0):
 def generate_mdx(json_data, output_file):
     mdx_content = f"""# Data Export Format
 
+<Info>
+This is an optional info card that you can use.
+</Info>
+
+
 Export type: [insert export type]
 
 <AccordionGroup>
