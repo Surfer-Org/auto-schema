@@ -6,6 +6,7 @@ from data_parsers import *
 import json
 
 def process_file(file_path, file_obj=None):
+    
     if file_path.endswith('.csv'):
         if file_obj:
             text_file = io.TextIOWrapper(file_obj, encoding='utf-8')
@@ -24,7 +25,16 @@ def process_file(file_path, file_obj=None):
     elif file_path.endswith('.js'): # THIS IS MEANT FOR TWITTER ARCHIVE!!
         return parse_js(file_path)
     else:
-        return None
+        if file_path.endswith(('.md', 'markdown', 'html')):
+            if file_obj:
+                other_file = io.TextIOWrapper(file_obj, encoding='utf-8')
+                other_content = other_file.read()
+            else:
+                with open(file_path, 'r', encoding='utf-8') as other_file:
+                    other_content = other_file.read()
+            return other_content    
+        else:
+            return None
 
 def get_files_structure(folder_path, current_level=None):
     if current_level is None:
@@ -47,6 +57,7 @@ def get_files_structure(folder_path, current_level=None):
     elif zipfile.is_zipfile(folder_path):
         with zipfile.ZipFile(folder_path, 'r') as zip_ref:
             for file in zip_ref.namelist():
+                print(file)
                 if not file.endswith('.DS_Store'):  # Skip .DS_Store files
                     parts = file.split('/')
                     sub_level = current_level
